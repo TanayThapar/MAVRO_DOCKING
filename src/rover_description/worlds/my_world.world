@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="rover_test_world">
+
+    <!-- Lighting -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- Ground Plane -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- Rough terrain using heightmap -->
+    <model name="terrain">
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <heightmap>
+              <uri>file://media/materials/textures/heightmap.png</uri>
+              <size>100 100 10</size>
+              <pos>0 0 0</pos>
+            </heightmap>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <heightmap>
+              <uri>file://media/materials/textures/heightmap.png</uri>
+              <size>100 100 10</size>
+            </heightmap>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Add obstacles -->
+    <model name="rock_1">
+      <static>true</static>
+      <pose>5 3 0 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry><sphere><radius>0.5</radius></sphere></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><sphere><radius>0.5</radius></sphere></geometry>
+        </visual>
+      </link>
+    </model>
+
+  </world>
+</sdf>
