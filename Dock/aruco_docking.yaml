@@ -1,0 +1,6 @@
+aruco_docking_node:
+  ros__parameters:
+    marker_id: 12
+    marker_size: 0.15      # Physical size in meters
+    desired_distance: 0.3  # Stop 0.5m away
+    camera_topic: "/camera/image_raw" # Change if your camera topic differs
