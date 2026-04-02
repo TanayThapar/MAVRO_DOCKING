@@ -28,3 +28,8 @@ ros2 launch rover_description spawn_rover.launch.py
 ```bash
 ros2 launch rover_description display.launch.py
 ```
+
+### To run pid controllers
+```bash
+ros2 launch rover_description pid.launch.py
+```
