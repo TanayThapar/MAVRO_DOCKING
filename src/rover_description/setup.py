@@ -41,6 +41,7 @@ setup(
         'console_scripts': [
             'aruco_detector = rover_description.aruco_detector_node:main',
             'dock_pid_controller = rover_description.dock_pid_controller:main',
+            'dock_pid_controller_2 = rover_description.PID_controller_2:main',
         ],
     },
 )

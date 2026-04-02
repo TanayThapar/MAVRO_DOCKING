@@ -75,7 +75,6 @@ def generate_launch_description():
         output='screen'
     )
 
-
     return LaunchDescription([
         ignition_gazebo,
         robot_state_publisher_node,
