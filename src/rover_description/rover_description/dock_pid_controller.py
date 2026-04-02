@@ -41,7 +41,7 @@ class DockPIDController(Node):
         # Extract yaw from quaternion (z, w only)
         z = msg.pose.orientation.z
         w = msg.pose.orientation.w
-        self.yaw_error = 2.0 * math.atan2(z, w)
+        self.yaw_error = -2.0 * math.atan2(z, w)
         self.marker_visible = True
 
     def control_loop(self):
