@@ -19,7 +19,7 @@ source /opt/ros/<distro>/setup.bash
 colcon build
 source install/setup.bash
 ```
-### To run gazebo, aruco detector and controller
+### To run gazebo and aruco detector
 ```bash
 ros2 launch rover_description spawn_rover.launch.py
 ```
