@@ -1,0 +1,28 @@
+slam_toolbox:
+  ros__parameters:
+
+    mode: localization
+
+    # Map & graph to load
+    map_file_name: /home/tusharchillal/yellowbot_ws/lab2ser
+    # map_start_pose: [0.0, 0.0, 0.0]   # (optional)
+    map_start_at_dock: true
+
+    odom_frame: odom
+    map_frame: map
+    base_frame: base_link
+    laser_frame_id: laser_frame
+    scan_topic: /scan
+
+    transform_publish_period: 0.02
+    resolution: 0.05
+    throttle_scans: 1
+    minimum_time_interval: 0.5
+    transform_timeout: 0.5
+    tf_buffer_duration: 30.0
+
+    use_scan_matching: true
+    use_scan_barycenter: true
+
+    do_loop_closing: false   # IMPORTANT → disable loop closure in localization mode
+

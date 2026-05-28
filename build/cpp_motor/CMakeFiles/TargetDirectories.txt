@@ -1,0 +1,11 @@
+/mnt/c/Users/kaush/Desktop/ros/build/cpp_motor/CMakeFiles/uninstall.dir
+/mnt/c/Users/kaush/Desktop/ros/build/cpp_motor/CMakeFiles/cpp_motor_uninstall.dir
+/mnt/c/Users/kaush/Desktop/ros/build/cpp_motor/CMakeFiles/motor_control_node.dir
+/mnt/c/Users/kaush/Desktop/ros/build/cpp_motor/CMakeFiles/ps5_teleop_node.dir
+/mnt/c/Users/kaush/Desktop/ros/build/cpp_motor/CMakeFiles/test.dir
+/mnt/c/Users/kaush/Desktop/ros/build/cpp_motor/CMakeFiles/edit_cache.dir
+/mnt/c/Users/kaush/Desktop/ros/build/cpp_motor/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/kaush/Desktop/ros/build/cpp_motor/CMakeFiles/list_install_components.dir
+/mnt/c/Users/kaush/Desktop/ros/build/cpp_motor/CMakeFiles/install.dir
+/mnt/c/Users/kaush/Desktop/ros/build/cpp_motor/CMakeFiles/install/local.dir
+/mnt/c/Users/kaush/Desktop/ros/build/cpp_motor/CMakeFiles/install/strip.dir

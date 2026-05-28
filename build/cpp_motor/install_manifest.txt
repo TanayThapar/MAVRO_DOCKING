@@ -1,0 +1,17 @@
+/mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/lib/cpp_motor/motor_control_node
+/mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/lib/cpp_motor/ps5_teleop_node
+/mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/share/ament_index/resource_index/package_run_dependencies/cpp_motor
+/mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/share/ament_index/resource_index/parent_prefix_path/cpp_motor
+/mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/share/cpp_motor/environment/ament_prefix_path.sh
+/mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/share/cpp_motor/environment/ament_prefix_path.dsv
+/mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/share/cpp_motor/environment/path.sh
+/mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/share/cpp_motor/environment/path.dsv
+/mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/share/cpp_motor/local_setup.bash
+/mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/share/cpp_motor/local_setup.sh
+/mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/share/cpp_motor/local_setup.zsh
+/mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/share/cpp_motor/local_setup.dsv
+/mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/share/cpp_motor/package.dsv
+/mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/share/ament_index/resource_index/packages/cpp_motor
+/mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/share/cpp_motor/cmake/cpp_motorConfig.cmake
+/mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/share/cpp_motor/cmake/cpp_motorConfig-version.cmake
+/mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/share/cpp_motor/package.xml

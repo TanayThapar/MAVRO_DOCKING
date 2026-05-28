@@ -1,0 +1,4 @@
+source;share/dream_world/local_setup.bash
+source;share/dream_world/local_setup.dsv
+source;share/dream_world/local_setup.sh
+source;share/dream_world/local_setup.zsh

@@ -1,0 +1,7 @@
+[console_scripts]
+arrow_teleop = motor_serial.arrow_teleop:main
+motor_controller = motor_serial.motor_controller:main
+ps5_drive = motor_serial.ps5_drive:main
+serial_bridge = motor_serial.serial_bridge:main
+twist_to_motor = motor_serial.twist_to_motor:main
+

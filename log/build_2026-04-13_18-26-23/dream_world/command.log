@@ -1,0 +1,6 @@
+Invoking command in '/mnt/c/Users/kaush/Desktop/ros/build/dream_world': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /mnt/c/Users/kaush/Desktop/ros/src/dream_world -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/kaush/Desktop/ros/install/dream_world
+Invoked command in '/mnt/c/Users/kaush/Desktop/ros/build/dream_world' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /mnt/c/Users/kaush/Desktop/ros/src/dream_world -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/kaush/Desktop/ros/install/dream_world
+Invoking command in '/mnt/c/Users/kaush/Desktop/ros/build/dream_world': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/kaush/Desktop/ros/build/dream_world -- -j16 -l16
+Invoked command in '/mnt/c/Users/kaush/Desktop/ros/build/dream_world' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/kaush/Desktop/ros/build/dream_world -- -j16 -l16
+Invoking command in '/mnt/c/Users/kaush/Desktop/ros/build/dream_world': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/kaush/Desktop/ros/build/dream_world
+Invoked command in '/mnt/c/Users/kaush/Desktop/ros/build/dream_world' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/kaush/Desktop/ros/build/dream_world

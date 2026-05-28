@@ -1,0 +1,1499 @@
+[0.000000] (-) TimerEvent: {}
+[0.000654] (camera_controll) JobQueued: {'identifier': 'camera_controll', 'dependencies': OrderedDict()}
+[0.001005] (cpp_motor) JobQueued: {'identifier': 'cpp_motor', 'dependencies': OrderedDict()}
+[0.001367] (dream_world) JobQueued: {'identifier': 'dream_world', 'dependencies': OrderedDict()}
+[0.001627] (motor_serial) JobQueued: {'identifier': 'motor_serial', 'dependencies': OrderedDict()}
+[0.001973] (rover_description) JobQueued: {'identifier': 'rover_description', 'dependencies': OrderedDict()}
+[0.002230] (camera_controll) JobStarted: {'identifier': 'camera_controll'}
+[0.096532] (-) TimerEvent: {}
+[0.099740] (cpp_motor) JobStarted: {'identifier': 'cpp_motor'}
+[0.109828] (dream_world) JobStarted: {'identifier': 'dream_world'}
+[0.119759] (motor_serial) JobStarted: {'identifier': 'motor_serial'}
+[0.196835] (-) TimerEvent: {}
+[0.215407] (rover_description) JobStarted: {'identifier': 'rover_description'}
+[0.296975] (-) TimerEvent: {}
+[0.397906] (-) TimerEvent: {}
+[0.498600] (-) TimerEvent: {}
+[0.537213] (cpp_motor) JobProgress: {'identifier': 'cpp_motor', 'progress': 'cmake'}
+[0.598739] (-) TimerEvent: {}
+[0.602835] (cpp_motor) Command: {'cmd': ['/usr/bin/cmake', '/mnt/c/Users/kaush/Desktop/ros/src/cpp_motor', '-DCMAKE_INSTALL_PREFIX=/mnt/c/Users/kaush/Desktop/ros/install/cpp_motor'], 'cwd': '/mnt/c/Users/kaush/Desktop/ros/build/cpp_motor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kaush'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/kaush'), ('OLDPWD', '/mnt/c/Users/kaush/Desktop'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kaush'), ('NAME', 'KCPc'), ('WSL_INTEROP', '/run/WSL/410_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python314/Scripts/:/mnt/c/Python314/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PostgreSQL/18/bin:/mnt/c/Users/kaush/Develop/flutter/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/RedHat/java-21-openjdk-21.0.10.0.7-1/bin:/mnt/c/Users/kaush/.local/bin:/mnt/c/Users/kaush/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/kaush/AppData/Local/Programs/Antigravity/bin:/mnt/c/Users/kaush/AppData/Roaming/npm:/mnt/c/Users/kaush/AppData/Roaming/Python/Python314/Scripts:/mnt/c/Users/kaush/AppData/Local/Programs/Ollama:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/Users/kaush/Desktop/ros/build/cpp_motor'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.645257] (dream_world) JobProgress: {'identifier': 'dream_world', 'progress': 'cmake'}
+[0.672547] (dream_world) Command: {'cmd': ['/usr/bin/cmake', '/mnt/c/Users/kaush/Desktop/ros/src/dream_world', '-DCMAKE_INSTALL_PREFIX=/mnt/c/Users/kaush/Desktop/ros/install/dream_world'], 'cwd': '/mnt/c/Users/kaush/Desktop/ros/build/dream_world', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kaush'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/kaush'), ('OLDPWD', '/mnt/c/Users/kaush/Desktop'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kaush'), ('NAME', 'KCPc'), ('WSL_INTEROP', '/run/WSL/410_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python314/Scripts/:/mnt/c/Python314/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PostgreSQL/18/bin:/mnt/c/Users/kaush/Develop/flutter/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/RedHat/java-21-openjdk-21.0.10.0.7-1/bin:/mnt/c/Users/kaush/.local/bin:/mnt/c/Users/kaush/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/kaush/AppData/Local/Programs/Antigravity/bin:/mnt/c/Users/kaush/AppData/Roaming/npm:/mnt/c/Users/kaush/AppData/Roaming/Python/Python314/Scripts:/mnt/c/Users/kaush/AppData/Local/Programs/Ollama:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/Users/kaush/Desktop/ros/build/dream_world'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.698877] (-) TimerEvent: {}
+[0.799719] (-) TimerEvent: {}
+[0.900847] (-) TimerEvent: {}
+[0.924500] (rover_description) JobProgress: {'identifier': 'rover_description', 'progress': 'cmake'}
+[0.956925] (rover_description) Command: {'cmd': ['/usr/bin/cmake', '/mnt/c/Users/kaush/Desktop/ros/src/rover_description', '-DCMAKE_INSTALL_PREFIX=/mnt/c/Users/kaush/Desktop/ros/install/rover_description'], 'cwd': '/mnt/c/Users/kaush/Desktop/ros/build/rover_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kaush'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/kaush'), ('OLDPWD', '/mnt/c/Users/kaush/Desktop'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kaush'), ('NAME', 'KCPc'), ('WSL_INTEROP', '/run/WSL/410_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python314/Scripts/:/mnt/c/Python314/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PostgreSQL/18/bin:/mnt/c/Users/kaush/Develop/flutter/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/RedHat/java-21-openjdk-21.0.10.0.7-1/bin:/mnt/c/Users/kaush/.local/bin:/mnt/c/Users/kaush/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/kaush/AppData/Local/Programs/Antigravity/bin:/mnt/c/Users/kaush/AppData/Roaming/npm:/mnt/c/Users/kaush/AppData/Roaming/Python/Python314/Scripts:/mnt/c/Users/kaush/AppData/Local/Programs/Ollama:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/Users/kaush/Desktop/ros/build/rover_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.000959] (-) TimerEvent: {}
+[1.101745] (-) TimerEvent: {}
+[1.108831] (dream_world) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.110448] (cpp_motor) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.201885] (-) TimerEvent: {}
+[1.302584] (-) TimerEvent: {}
+[1.331408] (rover_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.402727] (-) TimerEvent: {}
+[1.503577] (-) TimerEvent: {}
+[1.604214] (-) TimerEvent: {}
+[1.704955] (-) TimerEvent: {}
+[1.715146] (dream_world) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.716399] (cpp_motor) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.805097] (-) TimerEvent: {}
+[1.905707] (-) TimerEvent: {}
+[1.988766] (rover_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.005826] (-) TimerEvent: {}
+[2.059976] (cpp_motor) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.061224] (dream_world) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.105984] (-) TimerEvent: {}
+[2.206739] (-) TimerEvent: {}
+[2.236021] (camera_controll) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/camera_controll', 'build', '--build-base', '/mnt/c/Users/kaush/Desktop/ros/build/camera_controll/build', 'install', '--record', '/mnt/c/Users/kaush/Desktop/ros/build/camera_controll/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/mnt/c/Users/kaush/Desktop/ros/src/camera_controll', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kaush', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/kaush', 'OLDPWD': '/mnt/c/Users/kaush/Desktop', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kaush', 'NAME': 'KCPc', 'WSL_INTEROP': '/run/WSL/410_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python314/Scripts/:/mnt/c/Python314/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PostgreSQL/18/bin:/mnt/c/Users/kaush/Develop/flutter/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/RedHat/java-21-openjdk-21.0.10.0.7-1/bin:/mnt/c/Users/kaush/.local/bin:/mnt/c/Users/kaush/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/kaush/AppData/Local/Programs/Antigravity/bin:/mnt/c/Users/kaush/AppData/Roaming/npm:/mnt/c/Users/kaush/AppData/Roaming/Python/Python314/Scripts:/mnt/c/Users/kaush/AppData/Local/Programs/Ollama:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/mnt/c/Users/kaush/Desktop/ros/build/camera_controll', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/Users/kaush/Desktop/ros/build/camera_controll/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/kaush/Desktop/ros/install/camera_controll/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[2.253355] (motor_serial) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/motor_serial', 'build', '--build-base', '/mnt/c/Users/kaush/Desktop/ros/build/motor_serial/build', 'install', '--record', '/mnt/c/Users/kaush/Desktop/ros/build/motor_serial/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/mnt/c/Users/kaush/Desktop/ros/src/motor_serial', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kaush', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/kaush', 'OLDPWD': '/mnt/c/Users/kaush/Desktop', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kaush', 'NAME': 'KCPc', 'WSL_INTEROP': '/run/WSL/410_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python314/Scripts/:/mnt/c/Python314/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PostgreSQL/18/bin:/mnt/c/Users/kaush/Develop/flutter/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/RedHat/java-21-openjdk-21.0.10.0.7-1/bin:/mnt/c/Users/kaush/.local/bin:/mnt/c/Users/kaush/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/kaush/AppData/Local/Programs/Antigravity/bin:/mnt/c/Users/kaush/AppData/Roaming/npm:/mnt/c/Users/kaush/AppData/Roaming/Python/Python314/Scripts:/mnt/c/Users/kaush/AppData/Local/Programs/Ollama:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/mnt/c/Users/kaush/Desktop/ros/build/motor_serial', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/Users/kaush/Desktop/ros/build/motor_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/kaush/Desktop/ros/install/motor_serial/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[2.306864] (-) TimerEvent: {}
+[2.407448] (-) TimerEvent: {}
+[2.433718] (rover_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.507593] (-) TimerEvent: {}
+[2.608220] (-) TimerEvent: {}
+[2.708902] (-) TimerEvent: {}
+[2.737216] (cpp_motor) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.738678] (dream_world) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.770081] (cpp_motor) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.771453] (dream_world) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.772599] (dream_world) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.774003] (cpp_motor) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.775053] (dream_world) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.776262] (cpp_motor) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.809040] (-) TimerEvent: {}
+[2.840030] (dream_world) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.841481] (cpp_motor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.909182] (-) TimerEvent: {}
+[3.007848] (camera_controll) StdoutLine: {'line': b'running egg_info\n'}
+[3.015275] (-) TimerEvent: {}
+[3.015808] (camera_controll) StdoutLine: {'line': b'creating ../../build/camera_controll/camera_controll.egg-info\n'}
+[3.017196] (camera_controll) StdoutLine: {'line': b'writing ../../build/camera_controll/camera_controll.egg-info/PKG-INFO\n'}
+[3.024633] (motor_serial) StdoutLine: {'line': b'running egg_info\n'}
+[3.028790] (camera_controll) StdoutLine: {'line': b'writing dependency_links to ../../build/camera_controll/camera_controll.egg-info/dependency_links.txt\n'}
+[3.030444] (motor_serial) StdoutLine: {'line': b'creating ../../build/motor_serial/motor_serial.egg-info\n'}
+[3.033349] (motor_serial) StdoutLine: {'line': b'writing ../../build/motor_serial/motor_serial.egg-info/PKG-INFO\n'}
+[3.035734] (camera_controll) StdoutLine: {'line': b'writing entry points to ../../build/camera_controll/camera_controll.egg-info/entry_points.txt\n'}
+[3.041919] (camera_controll) StdoutLine: {'line': b'writing requirements to ../../build/camera_controll/camera_controll.egg-info/requires.txt\n'}
+[3.044754] (motor_serial) StdoutLine: {'line': b'writing dependency_links to ../../build/motor_serial/motor_serial.egg-info/dependency_links.txt\n'}
+[3.046255] (camera_controll) StdoutLine: {'line': b'writing top-level names to ../../build/camera_controll/camera_controll.egg-info/top_level.txt\n'}
+[3.053061] (motor_serial) StdoutLine: {'line': b'writing entry points to ../../build/motor_serial/motor_serial.egg-info/entry_points.txt\n'}
+[3.054681] (camera_controll) StdoutLine: {'line': b"writing manifest file '../../build/camera_controll/camera_controll.egg-info/SOURCES.txt'\n"}
+[3.060107] (motor_serial) StdoutLine: {'line': b'writing requirements to ../../build/motor_serial/motor_serial.egg-info/requires.txt\n'}
+[3.064449] (motor_serial) StdoutLine: {'line': b'writing top-level names to ../../build/motor_serial/motor_serial.egg-info/top_level.txt\n'}
+[3.072265] (motor_serial) StdoutLine: {'line': b"writing manifest file '../../build/motor_serial/motor_serial.egg-info/SOURCES.txt'\n"}
+[3.100071] (camera_controll) StdoutLine: {'line': b"reading manifest file '../../build/camera_controll/camera_controll.egg-info/SOURCES.txt'\n"}
+[3.115411] (-) TimerEvent: {}
+[3.128572] (motor_serial) StdoutLine: {'line': b"reading manifest file '../../build/motor_serial/motor_serial.egg-info/SOURCES.txt'\n"}
+[3.164566] (camera_controll) StdoutLine: {'line': b"writing manifest file '../../build/camera_controll/camera_controll.egg-info/SOURCES.txt'\n"}
+[3.168078] (camera_controll) StdoutLine: {'line': b'running build\n'}
+[3.169207] (camera_controll) StdoutLine: {'line': b'running build_py\n'}
+[3.174571] (camera_controll) StdoutLine: {'line': b'creating /mnt/c/Users/kaush/Desktop/ros/build/camera_controll/build\n'}
+[3.176392] (camera_controll) StdoutLine: {'line': b'creating /mnt/c/Users/kaush/Desktop/ros/build/camera_controll/build/lib\n'}
+[3.177682] (rover_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.179242] (camera_controll) StdoutLine: {'line': b'creating /mnt/c/Users/kaush/Desktop/ros/build/camera_controll/build/lib/camera_controll\n'}
+[3.190514] (camera_controll) StdoutLine: {'line': b'copying camera_controll/rover_camera_node.py -> /mnt/c/Users/kaush/Desktop/ros/build/camera_controll/build/lib/camera_controll\n'}
+[3.198959] (motor_serial) StdoutLine: {'line': b"writing manifest file '../../build/motor_serial/motor_serial.egg-info/SOURCES.txt'\n"}
+[3.202938] (motor_serial) StdoutLine: {'line': b'running build\n'}
+[3.204423] (motor_serial) StdoutLine: {'line': b'running build_py\n'}
+[3.208658] (motor_serial) StdoutLine: {'line': b'creating /mnt/c/Users/kaush/Desktop/ros/build/motor_serial/build\n'}
+[3.210427] (rover_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.211744] (rover_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.212920] (rover_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.214194] (motor_serial) StdoutLine: {'line': b'creating /mnt/c/Users/kaush/Desktop/ros/build/motor_serial/build/lib\n'}
+[3.215170] (motor_serial) StdoutLine: {'line': b'creating /mnt/c/Users/kaush/Desktop/ros/build/motor_serial/build/lib/motor_serial\n'}
+[3.216304] (-) TimerEvent: {}
+[3.226088] (motor_serial) StdoutLine: {'line': b'copying motor_serial/arrow_teleop.py -> /mnt/c/Users/kaush/Desktop/ros/build/motor_serial/build/lib/motor_serial\n'}
+[3.232832] (camera_controll) StdoutLine: {'line': b'copying camera_controll/yolo_subscriber_node.py -> /mnt/c/Users/kaush/Desktop/ros/build/camera_controll/build/lib/camera_controll\n'}
+[3.272146] (motor_serial) StdoutLine: {'line': b'copying motor_serial/motor_controller.py -> /mnt/c/Users/kaush/Desktop/ros/build/motor_serial/build/lib/motor_serial\n'}
+[3.278900] (camera_controll) StdoutLine: {'line': b'copying camera_controll/__init__.py -> /mnt/c/Users/kaush/Desktop/ros/build/camera_controll/build/lib/camera_controll\n'}
+[3.282290] (rover_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.297843] (camera_controll) StdoutLine: {'line': b'running install\n'}
+[3.299134] (camera_controll) StdoutLine: {'line': b'running install_lib\n'}
+[3.313778] (motor_serial) StdoutLine: {'line': b'copying motor_serial/ps5_drive.py -> /mnt/c/Users/kaush/Desktop/ros/build/motor_serial/build/lib/motor_serial\n'}
+[3.316402] (-) TimerEvent: {}
+[3.323721] (camera_controll) StdoutLine: {'line': b'creating /mnt/c/Users/kaush/Desktop/ros/install/camera_controll/lib/python3.10/site-packages/camera_controll\n'}
+[3.344631] (camera_controll) StdoutLine: {'line': b'copying /mnt/c/Users/kaush/Desktop/ros/build/camera_controll/build/lib/camera_controll/rover_camera_node.py -> /mnt/c/Users/kaush/Desktop/ros/install/camera_controll/lib/python3.10/site-packages/camera_controll\n'}
+[3.348585] (motor_serial) StdoutLine: {'line': b'copying motor_serial/serial_bridge.py -> /mnt/c/Users/kaush/Desktop/ros/build/motor_serial/build/lib/motor_serial\n'}
+[3.388243] (motor_serial) StdoutLine: {'line': b'copying motor_serial/twist_to_motor.py -> /mnt/c/Users/kaush/Desktop/ros/build/motor_serial/build/lib/motor_serial\n'}
+[3.394689] (camera_controll) StdoutLine: {'line': b'copying /mnt/c/Users/kaush/Desktop/ros/build/camera_controll/build/lib/camera_controll/yolo_subscriber_node.py -> /mnt/c/Users/kaush/Desktop/ros/install/camera_controll/lib/python3.10/site-packages/camera_controll\n'}
+[3.416574] (-) TimerEvent: {}
+[3.433073] (motor_serial) StdoutLine: {'line': b'copying motor_serial/__init__.py -> /mnt/c/Users/kaush/Desktop/ros/build/motor_serial/build/lib/motor_serial\n'}
+[3.443782] (camera_controll) StdoutLine: {'line': b'copying /mnt/c/Users/kaush/Desktop/ros/build/camera_controll/build/lib/camera_controll/__init__.py -> /mnt/c/Users/kaush/Desktop/ros/install/camera_controll/lib/python3.10/site-packages/camera_controll\n'}
+[3.449730] (motor_serial) StdoutLine: {'line': b'running install\n'}
+[3.451115] (motor_serial) StdoutLine: {'line': b'running install_lib\n'}
+[3.477554] (motor_serial) StdoutLine: {'line': b'creating /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/lib/python3.10/site-packages/motor_serial\n'}
+[3.486479] (camera_controll) StdoutLine: {'line': b'byte-compiling /mnt/c/Users/kaush/Desktop/ros/install/camera_controll/lib/python3.10/site-packages/camera_controll/rover_camera_node.py to rover_camera_node.cpython-310.pyc\n'}
+[3.496425] (motor_serial) StdoutLine: {'line': b'copying /mnt/c/Users/kaush/Desktop/ros/build/motor_serial/build/lib/motor_serial/arrow_teleop.py -> /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/lib/python3.10/site-packages/motor_serial\n'}
+[3.516722] (-) TimerEvent: {}
+[3.530237] (dream_world) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.540839] (camera_controll) StdoutLine: {'line': b'byte-compiling /mnt/c/Users/kaush/Desktop/ros/install/camera_controll/lib/python3.10/site-packages/camera_controll/yolo_subscriber_node.py to yolo_subscriber_node.cpython-310.pyc\n'}
+[3.542161] (motor_serial) StdoutLine: {'line': b'copying /mnt/c/Users/kaush/Desktop/ros/build/motor_serial/build/lib/motor_serial/motor_controller.py -> /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/lib/python3.10/site-packages/motor_serial\n'}
+[3.563756] (dream_world) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.565288] (dream_world) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.566640] (dream_world) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.580833] (motor_serial) StdoutLine: {'line': b'copying /mnt/c/Users/kaush/Desktop/ros/build/motor_serial/build/lib/motor_serial/ps5_drive.py -> /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/lib/python3.10/site-packages/motor_serial\n'}
+[3.587836] (camera_controll) StdoutLine: {'line': b'byte-compiling /mnt/c/Users/kaush/Desktop/ros/install/camera_controll/lib/python3.10/site-packages/camera_controll/__init__.py to __init__.cpython-310.pyc\n'}
+[3.616854] (-) TimerEvent: {}
+[3.620377] (motor_serial) StdoutLine: {'line': b'copying /mnt/c/Users/kaush/Desktop/ros/build/motor_serial/build/lib/motor_serial/serial_bridge.py -> /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/lib/python3.10/site-packages/motor_serial\n'}
+[3.629228] (dream_world) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.630770] (camera_controll) StdoutLine: {'line': b'running install_data\n'}
+[3.638161] (camera_controll) StdoutLine: {'line': b'creating /mnt/c/Users/kaush/Desktop/ros/install/camera_controll/share/ament_index\n'}
+[3.640442] (camera_controll) StdoutLine: {'line': b'creating /mnt/c/Users/kaush/Desktop/ros/install/camera_controll/share/ament_index/resource_index\n'}
+[3.643373] (camera_controll) StdoutLine: {'line': b'creating /mnt/c/Users/kaush/Desktop/ros/install/camera_controll/share/ament_index/resource_index/packages\n'}
+[3.657046] (camera_controll) StdoutLine: {'line': b'copying resource/camera_controll -> /mnt/c/Users/kaush/Desktop/ros/install/camera_controll/share/ament_index/resource_index/packages\n'}
+[3.662263] (motor_serial) StdoutLine: {'line': b'copying /mnt/c/Users/kaush/Desktop/ros/build/motor_serial/build/lib/motor_serial/twist_to_motor.py -> /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/lib/python3.10/site-packages/motor_serial\n'}
+[3.685380] (cpp_motor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.687302] (camera_controll) StdoutLine: {'line': b'copying package.xml -> /mnt/c/Users/kaush/Desktop/ros/install/camera_controll/share/camera_controll\n'}
+[3.701698] (motor_serial) StdoutLine: {'line': b'copying /mnt/c/Users/kaush/Desktop/ros/build/motor_serial/build/lib/motor_serial/__init__.py -> /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/lib/python3.10/site-packages/motor_serial\n'}
+[3.703608] (camera_controll) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.716975] (-) TimerEvent: {}
+[3.720582] (cpp_motor) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.745110] (cpp_motor) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.746426] (cpp_motor) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.747769] (camera_controll) StdoutLine: {'line': b'Copying ../../build/camera_controll/camera_controll.egg-info to /mnt/c/Users/kaush/Desktop/ros/install/camera_controll/lib/python3.10/site-packages/camera_controll-0.0.0-py3.10.egg-info\n'}
+[3.749157] (dream_world) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.750686] (motor_serial) StdoutLine: {'line': b'byte-compiling /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/lib/python3.10/site-packages/motor_serial/arrow_teleop.py to arrow_teleop.cpython-310.pyc\n'}
+[3.788360] (cpp_motor) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.793746] (motor_serial) StdoutLine: {'line': b'byte-compiling /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/lib/python3.10/site-packages/motor_serial/motor_controller.py to motor_controller.cpython-310.pyc\n'}
+[3.817110] (-) TimerEvent: {}
+[3.835069] (motor_serial) StdoutLine: {'line': b'byte-compiling /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/lib/python3.10/site-packages/motor_serial/ps5_drive.py to ps5_drive.cpython-310.pyc\n'}
+[3.885412] (motor_serial) StdoutLine: {'line': b'byte-compiling /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/lib/python3.10/site-packages/motor_serial/serial_bridge.py to serial_bridge.cpython-310.pyc\n'}
+[3.892628] (cpp_motor) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.917296] (-) TimerEvent: {}
+[3.933633] (motor_serial) StdoutLine: {'line': b'byte-compiling /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/lib/python3.10/site-packages/motor_serial/twist_to_motor.py to twist_to_motor.cpython-310.pyc\n'}
+[3.945345] (dream_world) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.983008] (motor_serial) StdoutLine: {'line': b'byte-compiling /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/lib/python3.10/site-packages/motor_serial/__init__.py to __init__.cpython-310.pyc\n'}
+[4.009631] (camera_controll) StdoutLine: {'line': b'running install_scripts\n'}
+[4.017448] (-) TimerEvent: {}
+[4.025510] (motor_serial) StdoutLine: {'line': b'running install_data\n'}
+[4.034400] (motor_serial) StdoutLine: {'line': b'creating /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/share/ament_index\n'}
+[4.037144] (motor_serial) StdoutLine: {'line': b'creating /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/share/ament_index/resource_index\n'}
+[4.040313] (motor_serial) StdoutLine: {'line': b'creating /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/share/ament_index/resource_index/packages\n'}
+[4.044259] (rover_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.053787] (motor_serial) StdoutLine: {'line': b'copying resource/motor_serial -> /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/share/ament_index/resource_index/packages\n'}
+[4.079030] (rover_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.081366] (rover_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.082532] (rover_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.083600] (motor_serial) StdoutLine: {'line': b'copying package.xml -> /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/share/motor_serial\n'}
+[4.084495] (cpp_motor) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.085698] (camera_controll) StdoutLine: {'line': b'Installing rover_camera_node script to /mnt/c/Users/kaush/Desktop/ros/install/camera_controll/lib/camera_controll\n'}
+[4.096279] (camera_controll) StdoutLine: {'line': b'Installing yolo_subscriber_node script to /mnt/c/Users/kaush/Desktop/ros/install/camera_controll/lib/camera_controll\n'}
+[4.104356] (motor_serial) StdoutLine: {'line': b'creating /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/share/motor_serial/launch\n'}
+[4.112067] (camera_controll) StdoutLine: {'line': b"writing list of installed files to '/mnt/c/Users/kaush/Desktop/ros/build/camera_controll/install.log'\n"}
+[4.117416] (motor_serial) StdoutLine: {'line': b'copying launch/bringup.launch.py -> /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/share/motor_serial/launch\n'}
+[4.119030] (-) TimerEvent: {}
+[4.141884] (rover_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.143072] (camera_controll) CommandEnded: {'returncode': 0}
+[4.159864] (motor_serial) StdoutLine: {'line': b'copying launch/ps5_drive.launch.py -> /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/share/motor_serial/launch\n'}
+[4.195490] (motor_serial) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.215228] (motor_serial) StdoutLine: {'line': b'Copying ../../build/motor_serial/motor_serial.egg-info to /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/lib/python3.10/site-packages/motor_serial-0.0.0-py3.10.egg-info\n'}
+[4.219134] (-) TimerEvent: {}
+[4.243818] (rover_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.270580] (cpp_motor) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.275464] (cpp_motor) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.285612] (cpp_motor) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.303258] (cpp_motor) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.319247] (-) TimerEvent: {}
+[4.321068] (cpp_motor) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.371112] (cpp_motor) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.375216] (cpp_motor) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.419383] (-) TimerEvent: {}
+[4.435862] (camera_controll) JobEnded: {'identifier': 'camera_controll', 'rc': 0}
+[4.507913] (motor_serial) StdoutLine: {'line': b'running install_scripts\n'}
+[4.519536] (-) TimerEvent: {}
+[4.580534] (motor_serial) StdoutLine: {'line': b'Installing arrow_teleop script to /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/lib/motor_serial\n'}
+[4.592415] (motor_serial) StdoutLine: {'line': b'Installing motor_controller script to /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/lib/motor_serial\n'}
+[4.607524] (motor_serial) StdoutLine: {'line': b'Installing ps5_drive script to /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/lib/motor_serial\n'}
+[4.619645] (-) TimerEvent: {}
+[4.622313] (motor_serial) StdoutLine: {'line': b'Installing serial_bridge script to /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/lib/motor_serial\n'}
+[4.637074] (motor_serial) StdoutLine: {'line': b'Installing twist_to_motor script to /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/lib/motor_serial\n'}
+[4.653306] (motor_serial) StdoutLine: {'line': b"writing list of installed files to '/mnt/c/Users/kaush/Desktop/ros/build/motor_serial/install.log'\n"}
+[4.678993] (motor_serial) CommandEnded: {'returncode': 0}
+[4.719780] (-) TimerEvent: {}
+[4.820452] (-) TimerEvent: {}
+[4.921178] (-) TimerEvent: {}
+[4.999579] (rover_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.006048] (motor_serial) JobEnded: {'identifier': 'motor_serial', 'rc': 0}
+[5.021422] (-) TimerEvent: {}
+[5.122254] (-) TimerEvent: {}
+[5.223233] (-) TimerEvent: {}
+[5.324249] (-) TimerEvent: {}
+[5.357842] (rover_description) StdoutLine: {'line': b'-- Generating done\n'}
+[5.424451] (-) TimerEvent: {}
+[5.525360] (-) TimerEvent: {}
+[5.594642] (rover_description) StdoutLine: {'line': b'-- Build files have been written to: /mnt/c/Users/kaush/Desktop/ros/build/rover_description\n'}
+[5.620374] (rover_description) CommandEnded: {'returncode': 0}
+[5.621996] (rover_description) JobProgress: {'identifier': 'rover_description', 'progress': 'build'}
+[5.622218] (rover_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/c/Users/kaush/Desktop/ros/build/rover_description', '--', '-j16', '-l16'], 'cwd': '/mnt/c/Users/kaush/Desktop/ros/build/rover_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kaush'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/kaush'), ('OLDPWD', '/mnt/c/Users/kaush/Desktop'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kaush'), ('NAME', 'KCPc'), ('WSL_INTEROP', '/run/WSL/410_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python314/Scripts/:/mnt/c/Python314/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PostgreSQL/18/bin:/mnt/c/Users/kaush/Develop/flutter/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/RedHat/java-21-openjdk-21.0.10.0.7-1/bin:/mnt/c/Users/kaush/.local/bin:/mnt/c/Users/kaush/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/kaush/AppData/Local/Programs/Antigravity/bin:/mnt/c/Users/kaush/AppData/Roaming/npm:/mnt/c/Users/kaush/AppData/Roaming/Python/Python314/Scripts:/mnt/c/Users/kaush/AppData/Local/Programs/Ollama:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/Users/kaush/Desktop/ros/build/rover_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.625444] (-) TimerEvent: {}
+[5.716518] (rover_description) CommandEnded: {'returncode': 0}
+[5.725581] (-) TimerEvent: {}
+[5.734013] (rover_description) JobProgress: {'identifier': 'rover_description', 'progress': 'install'}
+[5.746188] (rover_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/c/Users/kaush/Desktop/ros/build/rover_description'], 'cwd': '/mnt/c/Users/kaush/Desktop/ros/build/rover_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kaush'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/kaush'), ('OLDPWD', '/mnt/c/Users/kaush/Desktop'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kaush'), ('NAME', 'KCPc'), ('WSL_INTEROP', '/run/WSL/410_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python314/Scripts/:/mnt/c/Python314/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PostgreSQL/18/bin:/mnt/c/Users/kaush/Develop/flutter/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/RedHat/java-21-openjdk-21.0.10.0.7-1/bin:/mnt/c/Users/kaush/.local/bin:/mnt/c/Users/kaush/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/kaush/AppData/Local/Programs/Antigravity/bin:/mnt/c/Users/kaush/AppData/Roaming/npm:/mnt/c/Users/kaush/AppData/Roaming/Python/Python314/Scripts:/mnt/c/Users/kaush/AppData/Local/Programs/Ollama:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/Users/kaush/Desktop/ros/build/rover_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.754780] (rover_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.760508] (rover_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//urdf\n'}
+[5.787420] (cpp_motor) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[5.792508] (rover_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//urdf/gazebo_control.xacro\n'}
+[5.825775] (-) TimerEvent: {}
+[5.894959] (rover_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//urdf/mobile_base.ros2_control.xacro\n'}
+[5.925998] (-) TimerEvent: {}
+[6.016332] (rover_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//urdf/Properties.xacro\n'}
+[6.026162] (-) TimerEvent: {}
+[6.121886] (rover_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//urdf/rover.urdf.xacro\n'}
+[6.126263] (-) TimerEvent: {}
+[6.222971] (rover_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//urdf/rover_base.xacro\n'}
+[6.226407] (-) TimerEvent: {}
+[6.327304] (-) TimerEvent: {}
+[6.334410] (rover_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//rviz\n'}
+[6.363703] (rover_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//launch\n'}
+[6.397607] (rover_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//launch/display.launch.xml\n'}
+[6.427546] (-) TimerEvent: {}
+[6.491641] (rover_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//launch/my_robot.launch.xml\n'}
+[6.527827] (-) TimerEvent: {}
+[6.589535] (rover_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//launch/spawn_rover.launch.py\n'}
+[6.628201] (-) TimerEvent: {}
+[6.691653] (rover_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//config\n'}
+[6.728567] (-) TimerEvent: {}
+[6.729044] (rover_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//config/gz_bridge.yaml\n'}
+[6.829029] (-) TimerEvent: {}
+[6.849817] (rover_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//config/localization.yaml\n'}
+[6.929480] (-) TimerEvent: {}
+[6.972359] (rover_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//config/mapper_param.yaml\n'}
+[7.029846] (-) TimerEvent: {}
+[7.070989] (rover_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//config/my_robot_controllers.yaml\n'}
+[7.130202] (-) TimerEvent: {}
+[7.164164] (rover_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//config/nav2.yaml\n'}
+[7.230651] (-) TimerEvent: {}
+[7.262671] (rover_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//config/ps5_config.yaml\n'}
+[7.310610] (cpp_motor) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[7.330871] (-) TimerEvent: {}
+[7.416411] (rover_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/ament_index/resource_index/package_run_dependencies/rover_description\n'}
+[7.431009] (-) TimerEvent: {}
+[7.531746] (-) TimerEvent: {}
+[7.535866] (rover_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/ament_index/resource_index/parent_prefix_path/rover_description\n'}
+[7.632287] (-) TimerEvent: {}
+[7.665646] (rover_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description/environment/ament_prefix_path.sh\n'}
+[7.732526] (-) TimerEvent: {}
+[7.738606] (rover_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description/environment/ament_prefix_path.dsv\n'}
+[7.811734] (rover_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description/environment/path.sh\n'}
+[7.832739] (-) TimerEvent: {}
+[7.911240] (rover_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description/environment/path.dsv\n'}
+[7.932916] (-) TimerEvent: {}
+[7.992587] (rover_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description/local_setup.bash\n'}
+[8.033222] (-) TimerEvent: {}
+[8.068632] (rover_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description/local_setup.sh\n'}
+[8.133641] (-) TimerEvent: {}
+[8.146227] (rover_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description/local_setup.zsh\n'}
+[8.225601] (rover_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description/local_setup.dsv\n'}
+[8.233771] (-) TimerEvent: {}
+[8.301004] (rover_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description/package.dsv\n'}
+[8.334068] (-) TimerEvent: {}
+[8.422301] (rover_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/ament_index/resource_index/packages/rover_description\n'}
+[8.434197] (-) TimerEvent: {}
+[8.535403] (-) TimerEvent: {}
+[8.554774] (rover_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description/cmake/rover_descriptionConfig.cmake\n'}
+[8.635918] (-) TimerEvent: {}
+[8.644488] (rover_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description/cmake/rover_descriptionConfig-version.cmake\n'}
+[8.725773] (rover_description) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description/package.xml\n'}
+[8.736078] (-) TimerEvent: {}
+[8.792702] (rover_description) CommandEnded: {'returncode': 0}
+[8.836299] (-) TimerEvent: {}
+[8.937425] (-) TimerEvent: {}
+[9.038795] (-) TimerEvent: {}
+[9.140196] (-) TimerEvent: {}
+[9.241359] (-) TimerEvent: {}
+[9.342395] (-) TimerEvent: {}
+[9.441684] (rover_description) JobEnded: {'identifier': 'rover_description', 'rc': 0}
+[9.449576] (-) TimerEvent: {}
+[9.550166] (-) TimerEvent: {}
+[9.650987] (-) TimerEvent: {}
+[9.751698] (-) TimerEvent: {}
+[9.852662] (-) TimerEvent: {}
+[9.953771] (-) TimerEvent: {}
+[10.054562] (-) TimerEvent: {}
+[10.132307] (cpp_motor) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[10.154753] (-) TimerEvent: {}
+[10.215692] (cpp_motor) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[10.255156] (-) TimerEvent: {}
+[10.356490] (-) TimerEvent: {}
+[10.457892] (-) TimerEvent: {}
+[10.558945] (-) TimerEvent: {}
+[10.660040] (-) TimerEvent: {}
+[10.761062] (-) TimerEvent: {}
+[10.862594] (-) TimerEvent: {}
+[10.963564] (-) TimerEvent: {}
+[11.064518] (-) TimerEvent: {}
+[11.165779] (-) TimerEvent: {}
+[11.266986] (-) TimerEvent: {}
+[11.368097] (-) TimerEvent: {}
+[11.440745] (cpp_motor) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[11.456401] (cpp_motor) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[11.468297] (-) TimerEvent: {}
+[11.569182] (-) TimerEvent: {}
+[11.670018] (-) TimerEvent: {}
+[11.770915] (-) TimerEvent: {}
+[11.871866] (-) TimerEvent: {}
+[11.972901] (-) TimerEvent: {}
+[12.073991] (-) TimerEvent: {}
+[12.175357] (-) TimerEvent: {}
+[12.254770] (cpp_motor) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[12.260980] (cpp_motor) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[12.275560] (-) TimerEvent: {}
+[12.340541] (cpp_motor) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[12.357090] (cpp_motor) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[12.374957] (cpp_motor) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[12.376849] (-) TimerEvent: {}
+[12.477762] (-) TimerEvent: {}
+[12.578507] (-) TimerEvent: {}
+[12.679213] (-) TimerEvent: {}
+[12.780063] (-) TimerEvent: {}
+[12.850397] (cpp_motor) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[12.880232] (-) TimerEvent: {}
+[12.980992] (-) TimerEvent: {}
+[13.082016] (-) TimerEvent: {}
+[13.142321] (cpp_motor) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[13.143949] (cpp_motor) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[13.145089] (cpp_motor) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[13.182324] (-) TimerEvent: {}
+[13.283381] (-) TimerEvent: {}
+[13.384572] (-) TimerEvent: {}
+[13.461478] (cpp_motor) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[13.463283] (cpp_motor) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[13.485580] (-) TimerEvent: {}
+[13.586525] (-) TimerEvent: {}
+[13.630718] (cpp_motor) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[13.686955] (-) TimerEvent: {}
+[13.787939] (-) TimerEvent: {}
+[13.889177] (-) TimerEvent: {}
+[13.990268] (-) TimerEvent: {}
+[14.002582] (cpp_motor) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[14.004465] (cpp_motor) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[14.049146] (cpp_motor) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[14.090449] (-) TimerEvent: {}
+[14.191613] (-) TimerEvent: {}
+[14.254935] (cpp_motor) StdoutLine: {'line': b'-- Configuring done\n'}
+[14.292040] (-) TimerEvent: {}
+[14.393134] (-) TimerEvent: {}
+[14.494166] (-) TimerEvent: {}
+[14.595421] (-) TimerEvent: {}
+[14.696555] (-) TimerEvent: {}
+[14.797725] (-) TimerEvent: {}
+[14.835964] (cpp_motor) StdoutLine: {'line': b'-- Generating done\n'}
+[14.898392] (-) TimerEvent: {}
+[14.999254] (-) TimerEvent: {}
+[15.100110] (-) TimerEvent: {}
+[15.194939] (cpp_motor) StdoutLine: {'line': b'-- Build files have been written to: /mnt/c/Users/kaush/Desktop/ros/build/cpp_motor\n'}
+[15.200362] (-) TimerEvent: {}
+[15.206930] (cpp_motor) CommandEnded: {'returncode': 0}
+[15.212702] (cpp_motor) JobProgress: {'identifier': 'cpp_motor', 'progress': 'build'}
+[15.216823] (cpp_motor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/c/Users/kaush/Desktop/ros/build/cpp_motor', '--', '-j16', '-l16'], 'cwd': '/mnt/c/Users/kaush/Desktop/ros/build/cpp_motor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kaush'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/kaush'), ('OLDPWD', '/mnt/c/Users/kaush/Desktop'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kaush'), ('NAME', 'KCPc'), ('WSL_INTEROP', '/run/WSL/410_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python314/Scripts/:/mnt/c/Python314/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PostgreSQL/18/bin:/mnt/c/Users/kaush/Develop/flutter/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/RedHat/java-21-openjdk-21.0.10.0.7-1/bin:/mnt/c/Users/kaush/.local/bin:/mnt/c/Users/kaush/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/kaush/AppData/Local/Programs/Antigravity/bin:/mnt/c/Users/kaush/AppData/Roaming/npm:/mnt/c/Users/kaush/AppData/Roaming/Python/Python314/Scripts:/mnt/c/Users/kaush/AppData/Local/Programs/Ollama:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/Users/kaush/Desktop/ros/build/cpp_motor'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[15.300733] (-) TimerEvent: {}
+[15.401756] (-) TimerEvent: {}
+[15.411617] (cpp_motor) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ps5_teleop_node.dir/src/ps5_teleop_node.cpp.o\x1b[0m\n'}
+[15.412954] (cpp_motor) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/motor_control_node.dir/src/motor_control_node.cpp.o\x1b[0m\n'}
+[15.502124] (-) TimerEvent: {}
+[15.607384] (-) TimerEvent: {}
+[15.708138] (-) TimerEvent: {}
+[15.813396] (-) TimerEvent: {}
+[15.918624] (-) TimerEvent: {}
+[16.023772] (-) TimerEvent: {}
+[16.128936] (-) TimerEvent: {}
+[16.233307] (-) TimerEvent: {}
+[16.338796] (-) TimerEvent: {}
+[16.444555] (-) TimerEvent: {}
+[16.549672] (-) TimerEvent: {}
+[16.654782] (-) TimerEvent: {}
+[16.759989] (-) TimerEvent: {}
+[16.865192] (-) TimerEvent: {}
+[16.971305] (-) TimerEvent: {}
+[17.076346] (-) TimerEvent: {}
+[17.181495] (-) TimerEvent: {}
+[17.286724] (-) TimerEvent: {}
+[17.391835] (-) TimerEvent: {}
+[17.496921] (-) TimerEvent: {}
+[17.602290] (-) TimerEvent: {}
+[17.707406] (-) TimerEvent: {}
+[17.810670] (-) TimerEvent: {}
+[17.911784] (-) TimerEvent: {}
+[18.012587] (-) TimerEvent: {}
+[18.113682] (-) TimerEvent: {}
+[18.214542] (-) TimerEvent: {}
+[18.315685] (-) TimerEvent: {}
+[18.416523] (-) TimerEvent: {}
+[18.517393] (-) TimerEvent: {}
+[18.618069] (-) TimerEvent: {}
+[18.718708] (-) TimerEvent: {}
+[18.786259] (dream_world) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[18.818964] (-) TimerEvent: {}
+[18.919748] (-) TimerEvent: {}
+[19.020600] (-) TimerEvent: {}
+[19.121540] (-) TimerEvent: {}
+[19.222283] (-) TimerEvent: {}
+[19.323213] (-) TimerEvent: {}
+[19.424209] (-) TimerEvent: {}
+[19.524992] (-) TimerEvent: {}
+[19.626017] (-) TimerEvent: {}
+[19.726887] (-) TimerEvent: {}
+[19.827524] (-) TimerEvent: {}
+[19.928384] (-) TimerEvent: {}
+[20.029161] (-) TimerEvent: {}
+[20.129986] (-) TimerEvent: {}
+[20.231128] (-) TimerEvent: {}
+[20.332168] (-) TimerEvent: {}
+[20.432896] (-) TimerEvent: {}
+[20.533727] (-) TimerEvent: {}
+[20.634503] (-) TimerEvent: {}
+[20.735401] (-) TimerEvent: {}
+[20.836085] (-) TimerEvent: {}
+[20.936737] (-) TimerEvent: {}
+[21.037656] (-) TimerEvent: {}
+[21.138371] (-) TimerEvent: {}
+[21.239130] (-) TimerEvent: {}
+[21.343529] (-) TimerEvent: {}
+[21.386061] (dream_world) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[21.443789] (-) TimerEvent: {}
+[21.549683] (-) TimerEvent: {}
+[21.655529] (-) TimerEvent: {}
+[21.761019] (-) TimerEvent: {}
+[21.865094] (-) TimerEvent: {}
+[21.971161] (-) TimerEvent: {}
+[22.076858] (-) TimerEvent: {}
+[22.182555] (-) TimerEvent: {}
+[22.288089] (-) TimerEvent: {}
+[22.393732] (-) TimerEvent: {}
+[22.499478] (-) TimerEvent: {}
+[22.605241] (-) TimerEvent: {}
+[22.710967] (-) TimerEvent: {}
+[22.816492] (-) TimerEvent: {}
+[22.922090] (-) TimerEvent: {}
+[23.027881] (-) TimerEvent: {}
+[23.131002] (-) TimerEvent: {}
+[23.170638] (dream_world) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[23.234053] (-) TimerEvent: {}
+[23.339629] (-) TimerEvent: {}
+[23.445222] (-) TimerEvent: {}
+[23.550844] (-) TimerEvent: {}
+[23.627795] (cpp_motor) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable motor_control_node\x1b[0m\n'}
+[23.652002] (-) TimerEvent: {}
+[23.757231] (-) TimerEvent: {}
+[23.863152] (-) TimerEvent: {}
+[23.942979] (cpp_motor) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ps5_teleop_node\x1b[0m\n'}
+[23.964217] (-) TimerEvent: {}
+[24.069796] (-) TimerEvent: {}
+[24.175390] (-) TimerEvent: {}
+[24.280960] (-) TimerEvent: {}
+[24.386436] (-) TimerEvent: {}
+[24.487196] (-) TimerEvent: {}
+[24.587856] (-) TimerEvent: {}
+[24.688520] (-) TimerEvent: {}
+[24.789442] (-) TimerEvent: {}
+[24.890289] (-) TimerEvent: {}
+[24.990968] (-) TimerEvent: {}
+[25.091575] (-) TimerEvent: {}
+[25.192163] (-) TimerEvent: {}
+[25.292756] (-) TimerEvent: {}
+[25.393364] (-) TimerEvent: {}
+[25.494052] (-) TimerEvent: {}
+[25.594653] (-) TimerEvent: {}
+[25.695309] (-) TimerEvent: {}
+[25.796094] (-) TimerEvent: {}
+[25.896881] (-) TimerEvent: {}
+[25.997651] (-) TimerEvent: {}
+[26.098413] (-) TimerEvent: {}
+[26.199245] (-) TimerEvent: {}
+[26.299972] (-) TimerEvent: {}
+[26.400619] (-) TimerEvent: {}
+[26.501258] (-) TimerEvent: {}
+[26.601902] (-) TimerEvent: {}
+[26.702586] (-) TimerEvent: {}
+[26.803134] (-) TimerEvent: {}
+[26.903993] (-) TimerEvent: {}
+[27.004740] (-) TimerEvent: {}
+[27.105435] (-) TimerEvent: {}
+[27.206228] (-) TimerEvent: {}
+[27.306898] (-) TimerEvent: {}
+[27.407629] (-) TimerEvent: {}
+[27.436399] (cpp_motor) StdoutLine: {'line': b'[100%] Built target motor_control_node\n'}
+[27.507803] (-) TimerEvent: {}
+[27.608712] (-) TimerEvent: {}
+[27.709548] (-) TimerEvent: {}
+[27.743653] (cpp_motor) StdoutLine: {'line': b'[100%] Built target ps5_teleop_node\n'}
+[27.780281] (cpp_motor) CommandEnded: {'returncode': 0}
+[27.803869] (cpp_motor) JobProgress: {'identifier': 'cpp_motor', 'progress': 'install'}
+[27.807456] (cpp_motor) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/c/Users/kaush/Desktop/ros/build/cpp_motor'], 'cwd': '/mnt/c/Users/kaush/Desktop/ros/build/cpp_motor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kaush'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/kaush'), ('OLDPWD', '/mnt/c/Users/kaush/Desktop'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kaush'), ('NAME', 'KCPc'), ('WSL_INTEROP', '/run/WSL/410_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python314/Scripts/:/mnt/c/Python314/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PostgreSQL/18/bin:/mnt/c/Users/kaush/Develop/flutter/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/RedHat/java-21-openjdk-21.0.10.0.7-1/bin:/mnt/c/Users/kaush/.local/bin:/mnt/c/Users/kaush/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/kaush/AppData/Local/Programs/Antigravity/bin:/mnt/c/Users/kaush/AppData/Roaming/npm:/mnt/c/Users/kaush/AppData/Roaming/Python/Python314/Scripts:/mnt/c/Users/kaush/AppData/Local/Programs/Ollama:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/Users/kaush/Desktop/ros/build/cpp_motor'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[27.810018] (-) TimerEvent: {}
+[27.818010] (cpp_motor) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[27.840187] (cpp_motor) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/lib/cpp_motor/motor_control_node\n'}
+[27.910293] (-) TimerEvent: {}
+[28.011072] (-) TimerEvent: {}
+[28.111806] (-) TimerEvent: {}
+[28.193521] (cpp_motor) StdoutLine: {'line': b'-- Set runtime path of "/mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/lib/cpp_motor/motor_control_node" to ""\n'}
+[28.212039] (-) TimerEvent: {}
+[28.213720] (cpp_motor) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/lib/cpp_motor/ps5_teleop_node\n'}
+[28.312176] (-) TimerEvent: {}
+[28.412949] (-) TimerEvent: {}
+[28.513830] (-) TimerEvent: {}
+[28.562605] (cpp_motor) StdoutLine: {'line': b'-- Set runtime path of "/mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/lib/cpp_motor/ps5_teleop_node" to ""\n'}
+[28.606818] (cpp_motor) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/share/ament_index/resource_index/package_run_dependencies/cpp_motor\n'}
+[28.613941] (-) TimerEvent: {}
+[28.714521] (-) TimerEvent: {}
+[28.729582] (cpp_motor) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/share/ament_index/resource_index/parent_prefix_path/cpp_motor\n'}
+[28.814697] (-) TimerEvent: {}
+[28.833900] (cpp_motor) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/share/cpp_motor/environment/ament_prefix_path.sh\n'}
+[28.904854] (cpp_motor) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/share/cpp_motor/environment/ament_prefix_path.dsv\n'}
+[28.914814] (-) TimerEvent: {}
+[28.980986] (cpp_motor) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/share/cpp_motor/environment/path.sh\n'}
+[29.014990] (-) TimerEvent: {}
+[29.056994] (cpp_motor) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/share/cpp_motor/environment/path.dsv\n'}
+[29.115135] (-) TimerEvent: {}
+[29.134085] (cpp_motor) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/share/cpp_motor/local_setup.bash\n'}
+[29.207905] (cpp_motor) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/share/cpp_motor/local_setup.sh\n'}
+[29.215239] (-) TimerEvent: {}
+[29.305114] (cpp_motor) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/share/cpp_motor/local_setup.zsh\n'}
+[29.315306] (-) TimerEvent: {}
+[29.373618] (cpp_motor) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/share/cpp_motor/local_setup.dsv\n'}
+[29.415566] (-) TimerEvent: {}
+[29.444261] (cpp_motor) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/share/cpp_motor/package.dsv\n'}
+[29.515730] (-) TimerEvent: {}
+[29.540442] (cpp_motor) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/share/ament_index/resource_index/packages/cpp_motor\n'}
+[29.615921] (-) TimerEvent: {}
+[29.651702] (cpp_motor) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/share/cpp_motor/cmake/cpp_motorConfig.cmake\n'}
+[29.716088] (-) TimerEvent: {}
+[29.726511] (cpp_motor) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/share/cpp_motor/cmake/cpp_motorConfig-version.cmake\n'}
+[29.807206] (cpp_motor) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/share/cpp_motor/package.xml\n'}
+[29.816177] (-) TimerEvent: {}
+[29.866011] (cpp_motor) CommandEnded: {'returncode': 0}
+[29.916324] (-) TimerEvent: {}
+[30.017085] (-) TimerEvent: {}
+[30.117890] (-) TimerEvent: {}
+[30.218558] (-) TimerEvent: {}
+[30.319365] (-) TimerEvent: {}
+[30.420226] (-) TimerEvent: {}
+[30.514742] (cpp_motor) JobEnded: {'identifier': 'cpp_motor', 'rc': 0}
+[30.522913] (-) TimerEvent: {}
+[30.623449] (-) TimerEvent: {}
+[30.724371] (-) TimerEvent: {}
+[30.825336] (-) TimerEvent: {}
+[30.926530] (-) TimerEvent: {}
+[31.027635] (-) TimerEvent: {}
+[31.128523] (-) TimerEvent: {}
+[31.229397] (-) TimerEvent: {}
+[31.330332] (-) TimerEvent: {}
+[31.431280] (-) TimerEvent: {}
+[31.532186] (-) TimerEvent: {}
+[31.633095] (-) TimerEvent: {}
+[31.734008] (-) TimerEvent: {}
+[31.835013] (-) TimerEvent: {}
+[31.935695] (-) TimerEvent: {}
+[32.036429] (-) TimerEvent: {}
+[32.137352] (-) TimerEvent: {}
+[32.238210] (-) TimerEvent: {}
+[32.339325] (-) TimerEvent: {}
+[32.440253] (-) TimerEvent: {}
+[32.541036] (-) TimerEvent: {}
+[32.641928] (-) TimerEvent: {}
+[32.742929] (-) TimerEvent: {}
+[32.843700] (-) TimerEvent: {}
+[32.944487] (-) TimerEvent: {}
+[33.045493] (-) TimerEvent: {}
+[33.146447] (-) TimerEvent: {}
+[33.247188] (-) TimerEvent: {}
+[33.347967] (-) TimerEvent: {}
+[33.448860] (-) TimerEvent: {}
+[33.549809] (-) TimerEvent: {}
+[33.650634] (-) TimerEvent: {}
+[33.751420] (-) TimerEvent: {}
+[33.852163] (-) TimerEvent: {}
+[33.952880] (-) TimerEvent: {}
+[34.053482] (-) TimerEvent: {}
+[34.154344] (-) TimerEvent: {}
+[34.255028] (-) TimerEvent: {}
+[34.356274] (-) TimerEvent: {}
+[34.457550] (-) TimerEvent: {}
+[34.558655] (-) TimerEvent: {}
+[34.659508] (-) TimerEvent: {}
+[34.760637] (-) TimerEvent: {}
+[34.861565] (-) TimerEvent: {}
+[34.962645] (-) TimerEvent: {}
+[35.063700] (-) TimerEvent: {}
+[35.164590] (-) TimerEvent: {}
+[35.265464] (-) TimerEvent: {}
+[35.366406] (-) TimerEvent: {}
+[35.467191] (-) TimerEvent: {}
+[35.568033] (-) TimerEvent: {}
+[35.668980] (-) TimerEvent: {}
+[35.770085] (-) TimerEvent: {}
+[35.871016] (-) TimerEvent: {}
+[35.971895] (-) TimerEvent: {}
+[36.072919] (-) TimerEvent: {}
+[36.173981] (-) TimerEvent: {}
+[36.275051] (-) TimerEvent: {}
+[36.375934] (-) TimerEvent: {}
+[36.476756] (-) TimerEvent: {}
+[36.577411] (-) TimerEvent: {}
+[36.678342] (-) TimerEvent: {}
+[36.779592] (-) TimerEvent: {}
+[36.880483] (-) TimerEvent: {}
+[36.981696] (-) TimerEvent: {}
+[37.082700] (-) TimerEvent: {}
+[37.183667] (-) TimerEvent: {}
+[37.284838] (-) TimerEvent: {}
+[37.329037] (dream_world) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[37.385152] (-) TimerEvent: {}
+[37.486703] (-) TimerEvent: {}
+[37.507295] (dream_world) StdoutLine: {'line': b'-- Configuring done\n'}
+[37.586908] (-) TimerEvent: {}
+[37.688080] (-) TimerEvent: {}
+[37.788984] (-) TimerEvent: {}
+[37.890018] (-) TimerEvent: {}
+[37.908186] (dream_world) StdoutLine: {'line': b'-- Generating done\n'}
+[37.990222] (-) TimerEvent: {}
+[38.091623] (-) TimerEvent: {}
+[38.168413] (dream_world) StdoutLine: {'line': b'-- Build files have been written to: /mnt/c/Users/kaush/Desktop/ros/build/dream_world\n'}
+[38.174568] (dream_world) CommandEnded: {'returncode': 0}
+[38.180599] (dream_world) JobProgress: {'identifier': 'dream_world', 'progress': 'build'}
+[38.185761] (dream_world) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/c/Users/kaush/Desktop/ros/build/dream_world', '--', '-j16', '-l16'], 'cwd': '/mnt/c/Users/kaush/Desktop/ros/build/dream_world', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kaush'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/kaush'), ('OLDPWD', '/mnt/c/Users/kaush/Desktop'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kaush'), ('NAME', 'KCPc'), ('WSL_INTEROP', '/run/WSL/410_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python314/Scripts/:/mnt/c/Python314/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PostgreSQL/18/bin:/mnt/c/Users/kaush/Develop/flutter/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/RedHat/java-21-openjdk-21.0.10.0.7-1/bin:/mnt/c/Users/kaush/.local/bin:/mnt/c/Users/kaush/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/kaush/AppData/Local/Programs/Antigravity/bin:/mnt/c/Users/kaush/AppData/Roaming/npm:/mnt/c/Users/kaush/AppData/Roaming/Python/Python314/Scripts:/mnt/c/Users/kaush/AppData/Local/Programs/Ollama:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/Users/kaush/Desktop/ros/build/dream_world'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[38.191743] (-) TimerEvent: {}
+[38.292405] (-) TimerEvent: {}
+[38.303132] (dream_world) CommandEnded: {'returncode': 0}
+[38.321710] (dream_world) JobProgress: {'identifier': 'dream_world', 'progress': 'install'}
+[38.326829] (dream_world) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/c/Users/kaush/Desktop/ros/build/dream_world'], 'cwd': '/mnt/c/Users/kaush/Desktop/ros/build/dream_world', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kaush'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/kaush'), ('OLDPWD', '/mnt/c/Users/kaush/Desktop'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kaush'), ('NAME', 'KCPc'), ('WSL_INTEROP', '/run/WSL/410_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python314/Scripts/:/mnt/c/Python314/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PostgreSQL/18/bin:/mnt/c/Users/kaush/Develop/flutter/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/RedHat/java-21-openjdk-21.0.10.0.7-1/bin:/mnt/c/Users/kaush/.local/bin:/mnt/c/Users/kaush/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/kaush/AppData/Local/Programs/Antigravity/bin:/mnt/c/Users/kaush/AppData/Roaming/npm:/mnt/c/Users/kaush/AppData/Roaming/Python/Python314/Scripts:/mnt/c/Users/kaush/AppData/Local/Programs/Ollama:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/Users/kaush/Desktop/ros/build/dream_world'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[38.338674] (dream_world) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[38.345231] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models\n'}
+[38.376984] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot\n'}
+[38.392601] (-) TimerEvent: {}
+[38.420075] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials\n'}
+[38.470373] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/scripts\n'}
+[38.492821] (-) TimerEvent: {}
+[38.538192] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/scripts/model.material\n'}
+[38.592979] (-) TimerEvent: {}
+[38.679271] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures\n'}
+[38.693143] (-) TimerEvent: {}
+[38.742614] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/BOXSET_Albedo.png\n'}
+[38.793311] (-) TimerEvent: {}
+[38.894044] (-) TimerEvent: {}
+[38.994677] (-) TimerEvent: {}
+[39.095454] (-) TimerEvent: {}
+[39.196278] (-) TimerEvent: {}
+[39.216061] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/BOXSET_Emissive.png\n'}
+[39.296477] (-) TimerEvent: {}
+[39.365519] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/BOXSET_Metalness.png\n'}
+[39.396634] (-) TimerEvent: {}
+[39.497412] (-) TimerEvent: {}
+[39.574347] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/BOXSET_Normal.png\n'}
+[39.597563] (-) TimerEvent: {}
+[39.698553] (-) TimerEvent: {}
+[39.799177] (-) TimerEvent: {}
+[39.879120] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/BOXSET_Roughness.png\n'}
+[39.899320] (-) TimerEvent: {}
+[40.000231] (-) TimerEvent: {}
+[40.101349] (-) TimerEvent: {}
+[40.137215] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/Crates_Crates_BaseColor.png\n'}
+[40.201521] (-) TimerEvent: {}
+[40.302320] (-) TimerEvent: {}
+[40.402968] (-) TimerEvent: {}
+[40.503808] (-) TimerEvent: {}
+[40.604785] (-) TimerEvent: {}
+[40.688155] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/Crates_Crates_Normal.png\n'}
+[40.704952] (-) TimerEvent: {}
+[40.805664] (-) TimerEvent: {}
+[40.906404] (-) TimerEvent: {}
+[41.006956] (-) TimerEvent: {}
+[41.057897] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/Crates_Crates_Roughness.png\n'}
+[41.107129] (-) TimerEvent: {}
+[41.207919] (-) TimerEvent: {}
+[41.279648] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/DepotLightmap.png\n'}
+[41.308088] (-) TimerEvent: {}
+[41.409078] (-) TimerEvent: {}
+[41.509923] (-) TimerEvent: {}
+[41.610701] (-) TimerEvent: {}
+[41.711298] (-) TimerEvent: {}
+[41.811967] (-) TimerEvent: {}
+[41.882455] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/FanBack_FanBack_BaseColor.png\n'}
+[41.912146] (-) TimerEvent: {}
+[42.012921] (-) TimerEvent: {}
+[42.072294] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/FANS_Albedo.png\n'}
+[42.113237] (-) TimerEvent: {}
+[42.214613] (-) TimerEvent: {}
+[42.315509] (-) TimerEvent: {}
+[42.416206] (-) TimerEvent: {}
+[42.430256] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/FANS_Metalness.png\n'}
+[42.516369] (-) TimerEvent: {}
+[42.564183] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/FANS_Normal.png\n'}
+[42.616749] (-) TimerEvent: {}
+[42.718192] (-) TimerEvent: {}
+[42.818851] (-) TimerEvent: {}
+[42.847602] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/FANS_Roughness.png\n'}
+[42.919011] (-) TimerEvent: {}
+[43.020091] (-) TimerEvent: {}
+[43.050872] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/FireAlarmPole_Albedo.png\n'}
+[43.120323] (-) TimerEvent: {}
+[43.221304] (-) TimerEvent: {}
+[43.228635] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/FireAlarmPole_Metalness.png\n'}
+[43.321512] (-) TimerEvent: {}
+[43.365926] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/FireAlarmPole_Normal.png\n'}
+[43.421696] (-) TimerEvent: {}
+[43.522639] (-) TimerEvent: {}
+[43.542910] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/FireAlarmPole_Roughness.png\n'}
+[43.622930] (-) TimerEvent: {}
+[43.724059] (-) TimerEvent: {}
+[43.740597] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/FireAlarm_Albedo.png\n'}
+[43.824296] (-) TimerEvent: {}
+[43.925228] (-) TimerEvent: {}
+[44.026272] (-) TimerEvent: {}
+[44.048665] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/FireAlarm_Metalness.png\n'}
+[44.126456] (-) TimerEvent: {}
+[44.176984] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/FireAlarm_Normal.png\n'}
+[44.226695] (-) TimerEvent: {}
+[44.327720] (-) TimerEvent: {}
+[44.343205] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/FireAlarm_Roughness.png\n'}
+[44.427958] (-) TimerEvent: {}
+[44.528865] (-) TimerEvent: {}
+[44.551053] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/FLOOR_Albedo.png\n'}
+[44.629156] (-) TimerEvent: {}
+[44.730332] (-) TimerEvent: {}
+[44.830874] (-) TimerEvent: {}
+[44.931704] (-) TimerEvent: {}
+[44.961832] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/FLOOR_Metalness.png\n'}
+[45.031950] (-) TimerEvent: {}
+[45.123267] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/FLOOR_Normal.png\n'}
+[45.132036] (-) TimerEvent: {}
+[45.232632] (-) TimerEvent: {}
+[45.333350] (-) TimerEvent: {}
+[45.434032] (-) TimerEvent: {}
+[45.464283] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/FLOOR_Roughness.png\n'}
+[45.534182] (-) TimerEvent: {}
+[45.635016] (-) TimerEvent: {}
+[45.736058] (-) TimerEvent: {}
+[45.812040] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/Forklift_Forklift_BaseColor.png\n'}
+[45.836309] (-) TimerEvent: {}
+[45.937249] (-) TimerEvent: {}
+[46.037842] (-) TimerEvent: {}
+[46.091566] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/Forklift_Forklift_Metallic.png\n'}
+[46.138082] (-) TimerEvent: {}
+[46.239277] (-) TimerEvent: {}
+[46.241326] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/Forklift_Forklift_Normal.png\n'}
+[46.339453] (-) TimerEvent: {}
+[46.440048] (-) TimerEvent: {}
+[46.528006] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/Forklift_Forklift_Roughness.png\n'}
+[46.540207] (-) TimerEvent: {}
+[46.640851] (-) TimerEvent: {}
+[46.722927] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/INTERCOM_Albedo.png\n'}
+[46.740958] (-) TimerEvent: {}
+[46.841523] (-) TimerEvent: {}
+[46.894438] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/INTERCOM_Emissive.png\n'}
+[46.941657] (-) TimerEvent: {}
+[47.022299] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/INTERCOM_Metalness.png\n'}
+[47.041849] (-) TimerEvent: {}
+[47.139111] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/INTERCOM_Normal.png\n'}
+[47.141918] (-) TimerEvent: {}
+[47.242535] (-) TimerEvent: {}
+[47.343299] (-) TimerEvent: {}
+[47.350315] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/INTERCOM_Roughness.png\n'}
+[47.443443] (-) TimerEvent: {}
+[47.505054] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/PILLERS_Albedo.png\n'}
+[47.543613] (-) TimerEvent: {}
+[47.644505] (-) TimerEvent: {}
+[47.745179] (-) TimerEvent: {}
+[47.759730] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/PILLERS_Metalness.png\n'}
+[47.845387] (-) TimerEvent: {}
+[47.923750] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/PILLERS_Normal.png\n'}
+[47.945569] (-) TimerEvent: {}
+[48.046337] (-) TimerEvent: {}
+[48.147830] (-) TimerEvent: {}
+[48.204253] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/PILLERS_Roughness.png\n'}
+[48.248081] (-) TimerEvent: {}
+[48.349006] (-) TimerEvent: {}
+[48.433850] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/Pipes_Albedo.png\n'}
+[48.449190] (-) TimerEvent: {}
+[48.549897] (-) TimerEvent: {}
+[48.565711] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/Pipes_Metalness.png\n'}
+[48.650137] (-) TimerEvent: {}
+[48.698934] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/Pipes_Normal.png\n'}
+[48.750297] (-) TimerEvent: {}
+[48.840463] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/Pipes_Roughness.png\n'}
+[48.850437] (-) TimerEvent: {}
+[48.951218] (-) TimerEvent: {}
+[48.998312] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/ROOF_Albedo.png\n'}
+[49.051433] (-) TimerEvent: {}
+[49.152128] (-) TimerEvent: {}
+[49.253112] (-) TimerEvent: {}
+[49.354090] (-) TimerEvent: {}
+[49.374863] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/ROOF_Emissive.png\n'}
+[49.454226] (-) TimerEvent: {}
+[49.490948] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/ROOF_Metalness.png\n'}
+[49.554406] (-) TimerEvent: {}
+[49.655249] (-) TimerEvent: {}
+[49.681019] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/ROOF_Normal.png\n'}
+[49.755458] (-) TimerEvent: {}
+[49.856348] (-) TimerEvent: {}
+[49.939810] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/ROOF_Roughness.png\n'}
+[49.956596] (-) TimerEvent: {}
+[50.057352] (-) TimerEvent: {}
+[50.143847] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/STAIRS_Albedo.png\n'}
+[50.157563] (-) TimerEvent: {}
+[50.258652] (-) TimerEvent: {}
+[50.359334] (-) TimerEvent: {}
+[50.435880] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/STAIRS_Metalness.png\n'}
+[50.459493] (-) TimerEvent: {}
+[50.560420] (-) TimerEvent: {}
+[50.607956] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/STAIRS_Normal.png\n'}
+[50.660590] (-) TimerEvent: {}
+[50.761708] (-) TimerEvent: {}
+[50.862467] (-) TimerEvent: {}
+[50.866801] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/STAIRS_Roughness.png\n'}
+[50.962695] (-) TimerEvent: {}
+[51.063388] (-) TimerEvent: {}
+[51.089058] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/WALLS_Albedo.png\n'}
+[51.163600] (-) TimerEvent: {}
+[51.264320] (-) TimerEvent: {}
+[51.365246] (-) TimerEvent: {}
+[51.466004] (-) TimerEvent: {}
+[51.567274] (-) TimerEvent: {}
+[51.570593] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/WALLS_Metalness.png\n'}
+[51.667512] (-) TimerEvent: {}
+[51.692181] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/WALLS_Normal.png\n'}
+[51.767695] (-) TimerEvent: {}
+[51.868622] (-) TimerEvent: {}
+[51.969332] (-) TimerEvent: {}
+[52.070187] (-) TimerEvent: {}
+[52.170884] (-) TimerEvent: {}
+[52.188899] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/WALLS_Roughness.png\n'}
+[52.271058] (-) TimerEvent: {}
+[52.330950] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/Window_WINDOW_BaseColor.png\n'}
+[52.371282] (-) TimerEvent: {}
+[52.472034] (-) TimerEvent: {}
+[52.524842] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/Window_WINDOW_Metallic.png\n'}
+[52.572228] (-) TimerEvent: {}
+[52.669566] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/Window_WINDOW_Roughness.png\n'}
+[52.672305] (-) TimerEvent: {}
+[52.772809] (-) TimerEvent: {}
+[52.850270] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/meshes\n'}
+[52.873023] (-) TimerEvent: {}
+[52.899751] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/meshes/Crates.dae\n'}
+[52.973294] (-) TimerEvent: {}
+[53.074422] (-) TimerEvent: {}
+[53.175092] (-) TimerEvent: {}
+[53.202986] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/meshes/Depot.dae\n'}
+[53.275353] (-) TimerEvent: {}
+[53.376361] (-) TimerEvent: {}
+[53.477617] (-) TimerEvent: {}
+[53.579115] (-) TimerEvent: {}
+[53.680195] (-) TimerEvent: {}
+[53.780994] (-) TimerEvent: {}
+[53.881547] (-) TimerEvent: {}
+[53.982113] (-) TimerEvent: {}
+[54.082922] (-) TimerEvent: {}
+[54.183579] (-) TimerEvent: {}
+[54.284175] (-) TimerEvent: {}
+[54.385155] (-) TimerEvent: {}
+[54.485692] (-) TimerEvent: {}
+[54.586517] (-) TimerEvent: {}
+[54.687098] (-) TimerEvent: {}
+[54.787749] (-) TimerEvent: {}
+[54.888303] (-) TimerEvent: {}
+[54.989078] (-) TimerEvent: {}
+[55.095023] (-) TimerEvent: {}
+[55.196882] (-) TimerEvent: {}
+[55.297718] (-) TimerEvent: {}
+[55.398430] (-) TimerEvent: {}
+[55.498925] (-) TimerEvent: {}
+[55.560209] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/model.config\n'}
+[55.599259] (-) TimerEvent: {}
+[55.672688] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/model.sdf\n'}
+[55.699555] (-) TimerEvent: {}
+[55.800777] (-) TimerEvent: {}
+[55.901824] (-) TimerEvent: {}
+[55.920488] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/thumbnails\n'}
+[56.002059] (-) TimerEvent: {}
+[56.004836] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/thumbnails/0.png\n'}
+[56.102162] (-) TimerEvent: {}
+[56.202849] (-) TimerEvent: {}
+[56.267291] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/thumbnails/1.png\n'}
+[56.303117] (-) TimerEvent: {}
+[56.404209] (-) TimerEvent: {}
+[56.462571] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/thumbnails/2.png\n'}
+[56.504530] (-) TimerEvent: {}
+[56.605772] (-) TimerEvent: {}
+[56.706545] (-) TimerEvent: {}
+[56.731799] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/thumbnails/3.png\n'}
+[56.806704] (-) TimerEvent: {}
+[56.908109] (-) TimerEvent: {}
+[56.957851] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/thumbnails/4.png\n'}
+[57.008280] (-) TimerEvent: {}
+[57.109235] (-) TimerEvent: {}
+[57.194112] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/thumbnails/5.png\n'}
+[57.209429] (-) TimerEvent: {}
+[57.310327] (-) TimerEvent: {}
+[57.411073] (-) TimerEvent: {}
+[57.419552] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds\n'}
+[57.452316] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/.basic_map.sdf.swp\n'}
+[57.511215] (-) TimerEvent: {}
+[57.569342] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/basic_map.sdf\n'}
+[57.611377] (-) TimerEvent: {}
+[57.695375] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/depot.sdf\n'}
+[57.711486] (-) TimerEvent: {}
+[57.780793] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025\n'}
+[57.811644] (-) TimerEvent: {}
+[57.838600] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/models\n'}
+[57.888091] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/models/barrel_1.glb\n'}
+[57.911813] (-) TimerEvent: {}
+[58.012607] (-) TimerEvent: {}
+[58.113820] (-) TimerEvent: {}
+[58.214671] (-) TimerEvent: {}
+[58.315492] (-) TimerEvent: {}
+[58.416196] (-) TimerEvent: {}
+[58.516995] (-) TimerEvent: {}
+[58.617819] (-) TimerEvent: {}
+[58.718698] (-) TimerEvent: {}
+[58.819328] (-) TimerEvent: {}
+[58.920079] (-) TimerEvent: {}
+[59.020982] (-) TimerEvent: {}
+[59.121591] (-) TimerEvent: {}
+[59.222223] (-) TimerEvent: {}
+[59.323170] (-) TimerEvent: {}
+[59.423776] (-) TimerEvent: {}
+[59.426007] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/models/barrel_2.glb\n'}
+[59.523968] (-) TimerEvent: {}
+[59.624701] (-) TimerEvent: {}
+[59.725501] (-) TimerEvent: {}
+[59.826403] (-) TimerEvent: {}
+[59.926959] (-) TimerEvent: {}
+[60.027542] (-) TimerEvent: {}
+[60.128386] (-) TimerEvent: {}
+[60.229128] (-) TimerEvent: {}
+[60.329663] (-) TimerEvent: {}
+[60.430624] (-) TimerEvent: {}
+[60.531535] (-) TimerEvent: {}
+[60.632572] (-) TimerEvent: {}
+[60.733320] (-) TimerEvent: {}
+[60.834339] (-) TimerEvent: {}
+[60.935255] (-) TimerEvent: {}
+[61.036350] (-) TimerEvent: {}
+[61.069348] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/models/barrel_3.glb\n'}
+[61.136479] (-) TimerEvent: {}
+[61.237106] (-) TimerEvent: {}
+[61.337715] (-) TimerEvent: {}
+[61.438488] (-) TimerEvent: {}
+[61.539545] (-) TimerEvent: {}
+[61.640610] (-) TimerEvent: {}
+[61.741128] (-) TimerEvent: {}
+[61.842019] (-) TimerEvent: {}
+[61.942697] (-) TimerEvent: {}
+[62.043570] (-) TimerEvent: {}
+[62.144214] (-) TimerEvent: {}
+[62.245065] (-) TimerEvent: {}
+[62.346027] (-) TimerEvent: {}
+[62.446926] (-) TimerEvent: {}
+[62.547481] (-) TimerEvent: {}
+[62.648017] (-) TimerEvent: {}
+[62.661834] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/models/curtain.glb\n'}
+[62.748108] (-) TimerEvent: {}
+[62.808377] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/models/electricity.glb\n'}
+[62.848337] (-) TimerEvent: {}
+[62.949197] (-) TimerEvent: {}
+[63.049854] (-) TimerEvent: {}
+[63.150475] (-) TimerEvent: {}
+[63.251375] (-) TimerEvent: {}
+[63.352197] (-) TimerEvent: {}
+[63.452937] (-) TimerEvent: {}
+[63.554236] (-) TimerEvent: {}
+[63.577905] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/models/pillar.glb\n'}
+[63.654399] (-) TimerEvent: {}
+[63.715477] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/models/street.glb\n'}
+[63.754817] (-) TimerEvent: {}
+[63.856032] (-) TimerEvent: {}
+[63.957251] (-) TimerEvent: {}
+[64.057999] (-) TimerEvent: {}
+[64.158730] (-) TimerEvent: {}
+[64.259367] (-) TimerEvent: {}
+[64.360230] (-) TimerEvent: {}
+[64.460797] (-) TimerEvent: {}
+[64.561938] (-) TimerEvent: {}
+[64.662562] (-) TimerEvent: {}
+[64.680389] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/models/warehouse_1_shelf_1.glb\n'}
+[64.762787] (-) TimerEvent: {}
+[64.863687] (-) TimerEvent: {}
+[64.964500] (-) TimerEvent: {}
+[65.065436] (-) TimerEvent: {}
+[65.166238] (-) TimerEvent: {}
+[65.267042] (-) TimerEvent: {}
+[65.367712] (-) TimerEvent: {}
+[65.468535] (-) TimerEvent: {}
+[65.569141] (-) TimerEvent: {}
+[65.669919] (-) TimerEvent: {}
+[65.770668] (-) TimerEvent: {}
+[65.871556] (-) TimerEvent: {}
+[65.972185] (-) TimerEvent: {}
+[66.072910] (-) TimerEvent: {}
+[66.173519] (-) TimerEvent: {}
+[66.274171] (-) TimerEvent: {}
+[66.374727] (-) TimerEvent: {}
+[66.475744] (-) TimerEvent: {}
+[66.576155] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/models/warehouse_1_shelf_2.glb\n'}
+[66.577571] (-) TimerEvent: {}
+[66.678227] (-) TimerEvent: {}
+[66.779169] (-) TimerEvent: {}
+[66.880135] (-) TimerEvent: {}
+[66.980885] (-) TimerEvent: {}
+[67.081502] (-) TimerEvent: {}
+[67.182396] (-) TimerEvent: {}
+[67.283140] (-) TimerEvent: {}
+[67.383734] (-) TimerEvent: {}
+[67.484448] (-) TimerEvent: {}
+[67.585390] (-) TimerEvent: {}
+[67.686064] (-) TimerEvent: {}
+[67.786806] (-) TimerEvent: {}
+[67.887726] (-) TimerEvent: {}
+[67.988704] (-) TimerEvent: {}
+[68.089753] (-) TimerEvent: {}
+[68.124646] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/models/warehouse_2_shelf_1.glb\n'}
+[68.190240] (-) TimerEvent: {}
+[68.291546] (-) TimerEvent: {}
+[68.392372] (-) TimerEvent: {}
+[68.493061] (-) TimerEvent: {}
+[68.594029] (-) TimerEvent: {}
+[68.695050] (-) TimerEvent: {}
+[68.795913] (-) TimerEvent: {}
+[68.896518] (-) TimerEvent: {}
+[68.997190] (-) TimerEvent: {}
+[69.097920] (-) TimerEvent: {}
+[69.198685] (-) TimerEvent: {}
+[69.299402] (-) TimerEvent: {}
+[69.400219] (-) TimerEvent: {}
+[69.501003] (-) TimerEvent: {}
+[69.602136] (-) TimerEvent: {}
+[69.703025] (-) TimerEvent: {}
+[69.803791] (-) TimerEvent: {}
+[69.904341] (-) TimerEvent: {}
+[70.005109] (-) TimerEvent: {}
+[70.106179] (-) TimerEvent: {}
+[70.207150] (-) TimerEvent: {}
+[70.271155] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/models/warehouse_2_shelf_2.glb\n'}
+[70.307257] (-) TimerEvent: {}
+[70.408242] (-) TimerEvent: {}
+[70.509340] (-) TimerEvent: {}
+[70.610421] (-) TimerEvent: {}
+[70.711322] (-) TimerEvent: {}
+[70.812575] (-) TimerEvent: {}
+[70.913434] (-) TimerEvent: {}
+[71.014278] (-) TimerEvent: {}
+[71.115282] (-) TimerEvent: {}
+[71.215925] (-) TimerEvent: {}
+[71.316967] (-) TimerEvent: {}
+[71.417662] (-) TimerEvent: {}
+[71.518459] (-) TimerEvent: {}
+[71.619630] (-) TimerEvent: {}
+[71.720450] (-) TimerEvent: {}
+[71.821580] (-) TimerEvent: {}
+[71.922312] (-) TimerEvent: {}
+[72.023210] (-) TimerEvent: {}
+[72.124221] (-) TimerEvent: {}
+[72.130897] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/models/warehouse_2_shelf_3.glb\n'}
+[72.224405] (-) TimerEvent: {}
+[72.325600] (-) TimerEvent: {}
+[72.426483] (-) TimerEvent: {}
+[72.527257] (-) TimerEvent: {}
+[72.628207] (-) TimerEvent: {}
+[72.729069] (-) TimerEvent: {}
+[72.830409] (-) TimerEvent: {}
+[72.931248] (-) TimerEvent: {}
+[73.032314] (-) TimerEvent: {}
+[73.133079] (-) TimerEvent: {}
+[73.233747] (-) TimerEvent: {}
+[73.334662] (-) TimerEvent: {}
+[73.435488] (-) TimerEvent: {}
+[73.536166] (-) TimerEvent: {}
+[73.637099] (-) TimerEvent: {}
+[73.737810] (-) TimerEvent: {}
+[73.838527] (-) TimerEvent: {}
+[73.939460] (-) TimerEvent: {}
+[73.966912] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/models/warehouse_2_shelf_4.glb\n'}
+[74.039660] (-) TimerEvent: {}
+[74.140631] (-) TimerEvent: {}
+[74.241499] (-) TimerEvent: {}
+[74.342483] (-) TimerEvent: {}
+[74.443452] (-) TimerEvent: {}
+[74.544105] (-) TimerEvent: {}
+[74.645233] (-) TimerEvent: {}
+[74.746028] (-) TimerEvent: {}
+[74.846894] (-) TimerEvent: {}
+[74.947619] (-) TimerEvent: {}
+[75.048491] (-) TimerEvent: {}
+[75.149113] (-) TimerEvent: {}
+[75.249839] (-) TimerEvent: {}
+[75.350765] (-) TimerEvent: {}
+[75.451538] (-) TimerEvent: {}
+[75.552566] (-) TimerEvent: {}
+[75.653502] (-) TimerEvent: {}
+[75.754421] (-) TimerEvent: {}
+[75.855222] (-) TimerEvent: {}
+[75.955779] (-) TimerEvent: {}
+[76.056530] (-) TimerEvent: {}
+[76.157139] (-) TimerEvent: {}
+[76.257912] (-) TimerEvent: {}
+[76.264427] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/models/warehouse_3_shelf_1.glb\n'}
+[76.358119] (-) TimerEvent: {}
+[76.458980] (-) TimerEvent: {}
+[76.559661] (-) TimerEvent: {}
+[76.660225] (-) TimerEvent: {}
+[76.760804] (-) TimerEvent: {}
+[76.861511] (-) TimerEvent: {}
+[76.962139] (-) TimerEvent: {}
+[77.062750] (-) TimerEvent: {}
+[77.163589] (-) TimerEvent: {}
+[77.264155] (-) TimerEvent: {}
+[77.365034] (-) TimerEvent: {}
+[77.465632] (-) TimerEvent: {}
+[77.566364] (-) TimerEvent: {}
+[77.667031] (-) TimerEvent: {}
+[77.767736] (-) TimerEvent: {}
+[77.868312] (-) TimerEvent: {}
+[77.969132] (-) TimerEvent: {}
+[78.070034] (-) TimerEvent: {}
+[78.171111] (-) TimerEvent: {}
+[78.271820] (-) TimerEvent: {}
+[78.372836] (-) TimerEvent: {}
+[78.473719] (-) TimerEvent: {}
+[78.574580] (-) TimerEvent: {}
+[78.627336] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/models/warehouse_3_shelf_2.glb\n'}
+[78.674885] (-) TimerEvent: {}
+[78.776192] (-) TimerEvent: {}
+[78.876848] (-) TimerEvent: {}
+[78.977767] (-) TimerEvent: {}
+[79.078330] (-) TimerEvent: {}
+[79.179037] (-) TimerEvent: {}
+[79.280043] (-) TimerEvent: {}
+[79.380927] (-) TimerEvent: {}
+[79.481555] (-) TimerEvent: {}
+[79.582534] (-) TimerEvent: {}
+[79.683309] (-) TimerEvent: {}
+[79.784023] (-) TimerEvent: {}
+[79.884877] (-) TimerEvent: {}
+[79.985688] (-) TimerEvent: {}
+[80.086540] (-) TimerEvent: {}
+[80.187591] (-) TimerEvent: {}
+[80.288417] (-) TimerEvent: {}
+[80.389468] (-) TimerEvent: {}
+[80.490575] (-) TimerEvent: {}
+[80.586031] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/models/warehouse_3_shelf_3.glb\n'}
+[80.590600] (-) TimerEvent: {}
+[80.691248] (-) TimerEvent: {}
+[80.792102] (-) TimerEvent: {}
+[80.893036] (-) TimerEvent: {}
+[80.994101] (-) TimerEvent: {}
+[81.094784] (-) TimerEvent: {}
+[81.195330] (-) TimerEvent: {}
+[81.296122] (-) TimerEvent: {}
+[81.396787] (-) TimerEvent: {}
+[81.497453] (-) TimerEvent: {}
+[81.598476] (-) TimerEvent: {}
+[81.699195] (-) TimerEvent: {}
+[81.800024] (-) TimerEvent: {}
+[81.900703] (-) TimerEvent: {}
+[82.001601] (-) TimerEvent: {}
+[82.102520] (-) TimerEvent: {}
+[82.167704] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/models/warehouse_4_shelf_1.glb\n'}
+[82.202721] (-) TimerEvent: {}
+[82.303832] (-) TimerEvent: {}
+[82.404538] (-) TimerEvent: {}
+[82.505347] (-) TimerEvent: {}
+[82.605940] (-) TimerEvent: {}
+[82.706555] (-) TimerEvent: {}
+[82.807416] (-) TimerEvent: {}
+[82.908174] (-) TimerEvent: {}
+[83.008853] (-) TimerEvent: {}
+[83.109473] (-) TimerEvent: {}
+[83.210092] (-) TimerEvent: {}
+[83.310669] (-) TimerEvent: {}
+[83.411515] (-) TimerEvent: {}
+[83.512408] (-) TimerEvent: {}
+[83.613213] (-) TimerEvent: {}
+[83.713822] (-) TimerEvent: {}
+[83.814377] (-) TimerEvent: {}
+[83.915271] (-) TimerEvent: {}
+[84.015996] (-) TimerEvent: {}
+[84.116632] (-) TimerEvent: {}
+[84.217344] (-) TimerEvent: {}
+[84.264955] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/models/warehouse_4_shelf_2.glb\n'}
+[84.317593] (-) TimerEvent: {}
+[84.418643] (-) TimerEvent: {}
+[84.519441] (-) TimerEvent: {}
+[84.620254] (-) TimerEvent: {}
+[84.721072] (-) TimerEvent: {}
+[84.821777] (-) TimerEvent: {}
+[84.922647] (-) TimerEvent: {}
+[85.023248] (-) TimerEvent: {}
+[85.123842] (-) TimerEvent: {}
+[85.224477] (-) TimerEvent: {}
+[85.325271] (-) TimerEvent: {}
+[85.426086] (-) TimerEvent: {}
+[85.527144] (-) TimerEvent: {}
+[85.627935] (-) TimerEvent: {}
+[85.729069] (-) TimerEvent: {}
+[85.829897] (-) TimerEvent: {}
+[85.858185] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/models/warehouse_4_shelf_3.glb\n'}
+[85.930115] (-) TimerEvent: {}
+[86.030868] (-) TimerEvent: {}
+[86.131565] (-) TimerEvent: {}
+[86.232434] (-) TimerEvent: {}
+[86.333035] (-) TimerEvent: {}
+[86.433738] (-) TimerEvent: {}
+[86.534550] (-) TimerEvent: {}
+[86.635149] (-) TimerEvent: {}
+[86.735937] (-) TimerEvent: {}
+[86.836576] (-) TimerEvent: {}
+[86.937152] (-) TimerEvent: {}
+[87.037817] (-) TimerEvent: {}
+[87.138735] (-) TimerEvent: {}
+[87.239377] (-) TimerEvent: {}
+[87.340045] (-) TimerEvent: {}
+[87.413109] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/models/warehouse_4_shelf_4.glb\n'}
+[87.440263] (-) TimerEvent: {}
+[87.541392] (-) TimerEvent: {}
+[87.641906] (-) TimerEvent: {}
+[87.742784] (-) TimerEvent: {}
+[87.843523] (-) TimerEvent: {}
+[87.944132] (-) TimerEvent: {}
+[88.044708] (-) TimerEvent: {}
+[88.145330] (-) TimerEvent: {}
+[88.245898] (-) TimerEvent: {}
+[88.346761] (-) TimerEvent: {}
+[88.447570] (-) TimerEvent: {}
+[88.548114] (-) TimerEvent: {}
+[88.649035] (-) TimerEvent: {}
+[88.749917] (-) TimerEvent: {}
+[88.850622] (-) TimerEvent: {}
+[88.951529] (-) TimerEvent: {}
+[89.054295] (-) TimerEvent: {}
+[89.155035] (-) TimerEvent: {}
+[89.255854] (-) TimerEvent: {}
+[89.285060] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/models/warehouse_4_shelf_5.glb\n'}
+[89.356060] (-) TimerEvent: {}
+[89.456664] (-) TimerEvent: {}
+[89.557316] (-) TimerEvent: {}
+[89.657903] (-) TimerEvent: {}
+[89.758698] (-) TimerEvent: {}
+[89.859446] (-) TimerEvent: {}
+[89.960104] (-) TimerEvent: {}
+[90.061111] (-) TimerEvent: {}
+[90.161774] (-) TimerEvent: {}
+[90.262516] (-) TimerEvent: {}
+[90.363306] (-) TimerEvent: {}
+[90.463936] (-) TimerEvent: {}
+[90.564761] (-) TimerEvent: {}
+[90.665564] (-) TimerEvent: {}
+[90.766662] (-) TimerEvent: {}
+[90.867464] (-) TimerEvent: {}
+[90.968339] (-) TimerEvent: {}
+[91.069311] (-) TimerEvent: {}
+[91.072399] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/nxp.dae\n'}
+[91.169485] (-) TimerEvent: {}
+[91.198236] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/NXP.png\n'}
+[91.269707] (-) TimerEvent: {}
+[91.311990] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/qrData_firstHeuristic.txt\n'}
+[91.369922] (-) TimerEvent: {}
+[91.412195] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/qr_code_images\n'}
+[91.470215] (-) TimerEvent: {}
+[91.485207] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/qr_code_images/warehouse_1_qrcode_1.png\n'}
+[91.570412] (-) TimerEvent: {}
+[91.593003] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/qr_code_images/warehouse_1_qrcode_2.png\n'}
+[91.670647] (-) TimerEvent: {}
+[91.740353] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/qr_code_images/warehouse_2_qrcode_1.png\n'}
+[91.770998] (-) TimerEvent: {}
+[91.850877] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/qr_code_images/warehouse_2_qrcode_2.png\n'}
+[91.871234] (-) TimerEvent: {}
+[91.972303] (-) TimerEvent: {}
+[91.989822] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/qr_code_images/warehouse_2_qrcode_3.png\n'}
+[92.072561] (-) TimerEvent: {}
+[92.119260] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/qr_code_images/warehouse_2_qrcode_4.png\n'}
+[92.172776] (-) TimerEvent: {}
+[92.230716] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/qr_code_images/warehouse_3_qrcode_1.png\n'}
+[92.273046] (-) TimerEvent: {}
+[92.361401] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/qr_code_images/warehouse_3_qrcode_2.png\n'}
+[92.373301] (-) TimerEvent: {}
+[92.474327] (-) TimerEvent: {}
+[92.506661] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/qr_code_images/warehouse_3_qrcode_3.png\n'}
+[92.574585] (-) TimerEvent: {}
+[92.637365] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/qr_code_images/warehouse_4_qrcode_1.png\n'}
+[92.674865] (-) TimerEvent: {}
+[92.758579] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/qr_code_images/warehouse_4_qrcode_2.png\n'}
+[92.775025] (-) TimerEvent: {}
+[92.876125] (-) TimerEvent: {}
+[92.899092] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/qr_code_images/warehouse_4_qrcode_3.png\n'}
+[92.976469] (-) TimerEvent: {}
+[93.032080] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/qr_code_images/warehouse_4_qrcode_4.png\n'}
+[93.076664] (-) TimerEvent: {}
+[93.168265] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/qr_code_images/warehouse_4_qrcode_5.png\n'}
+[93.176761] (-) TimerEvent: {}
+[93.277572] (-) TimerEvent: {}
+[93.321998] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/shelf_object_images\n'}
+[93.377798] (-) TimerEvent: {}
+[93.381233] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/shelf_object_images/banana.jpg\n'}
+[93.480908] (-) TimerEvent: {}
+[93.585302] (-) TimerEvent: {}
+[93.623315] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/shelf_object_images/car.jpg\n'}
+[93.687519] (-) TimerEvent: {}
+[93.791654] (-) TimerEvent: {}
+[93.810703] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/shelf_object_images/clock.jpeg\n'}
+[93.894581] (-) TimerEvent: {}
+[93.983156] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/shelf_object_images/cup.jpg\n'}
+[93.995137] (-) TimerEvent: {}
+[94.099789] (-) TimerEvent: {}
+[94.204028] (-) TimerEvent: {}
+[94.232892] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/shelf_object_images/horse.jpg\n'}
+[94.306610] (-) TimerEvent: {}
+[94.391608] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/shelf_object_images/plant.jpg\n'}
+[94.407202] (-) TimerEvent: {}
+[94.511625] (-) TimerEvent: {}
+[94.612577] (-) TimerEvent: {}
+[94.648659] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/shelf_object_images/teddy.jpg\n'}
+[94.715001] (-) TimerEvent: {}
+[94.819367] (-) TimerEvent: {}
+[94.923497] (-) TimerEvent: {}
+[95.027780] (-) TimerEvent: {}
+[95.130139] (-) TimerEvent: {}
+[95.234381] (-) TimerEvent: {}
+[95.338938] (-) TimerEvent: {}
+[95.388269] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/shelf_object_images/zebra.jpg\n'}
+[95.440908] (-) TimerEvent: {}
+[95.546004] (-) TimerEvent: {}
+[95.650413] (-) TimerEvent: {}
+[95.738984] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/shelf_object_images/_sources.txt\n'}
+[95.750495] (-) TimerEvent: {}
+[95.854416] (-) TimerEvent: {}
+[95.887646] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_1.sdf\n'}
+[95.957048] (-) TimerEvent: {}
+[96.059258] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_2.sdf\n'}
+[96.060685] (-) TimerEvent: {}
+[96.164855] (-) TimerEvent: {}
+[96.222346] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_3.sdf\n'}
+[96.266594] (-) TimerEvent: {}
+[96.365465] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_4.sdf\n'}
+[96.367142] (-) TimerEvent: {}
+[96.470783] (-) TimerEvent: {}
+[96.526106] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images\n'}
+[96.572598] (-) TimerEvent: {}
+[96.589115] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_1_analysis.png\n'}
+[96.673996] (-) TimerEvent: {}
+[96.771720] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_1_angles.png\n'}
+[96.774149] (-) TimerEvent: {}
+[96.878726] (-) TimerEvent: {}
+[96.941001] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_1_foxglove.png\n'}
+[96.980213] (-) TimerEvent: {}
+[97.084851] (-) TimerEvent: {}
+[97.110806] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_1_raw_map.png\n'}
+[97.187803] (-) TimerEvent: {}
+[97.287733] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_1_view_1.png\n'}
+[97.289223] (-) TimerEvent: {}
+[97.393436] (-) TimerEvent: {}
+[97.497944] (-) TimerEvent: {}
+[97.527921] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_1_view_2.png\n'}
+[97.600629] (-) TimerEvent: {}
+[97.705681] (-) TimerEvent: {}
+[97.774219] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_1_view_3.png\n'}
+[97.806917] (-) TimerEvent: {}
+[97.911530] (-) TimerEvent: {}
+[97.956175] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_2_analysis.png\n'}
+[98.013867] (-) TimerEvent: {}
+[98.118993] (-) TimerEvent: {}
+[98.119921] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_2_angles.png\n'}
+[98.222739] (-) TimerEvent: {}
+[98.295053] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_2_foxglove.png\n'}
+[98.323880] (-) TimerEvent: {}
+[98.428504] (-) TimerEvent: {}
+[98.463917] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_2_raw_map.png\n'}
+[98.529897] (-) TimerEvent: {}
+[98.600032] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_2_view_1.png\n'}
+[98.630226] (-) TimerEvent: {}
+[98.731401] (-) TimerEvent: {}
+[98.832181] (-) TimerEvent: {}
+[98.842795] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_2_view_2.png\n'}
+[98.932359] (-) TimerEvent: {}
+[99.033381] (-) TimerEvent: {}
+[99.078958] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_2_view_3.png\n'}
+[99.133555] (-) TimerEvent: {}
+[99.234920] (-) TimerEvent: {}
+[99.255451] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_3_analysis.png\n'}
+[99.335097] (-) TimerEvent: {}
+[99.420217] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_3_angles.png\n'}
+[99.435239] (-) TimerEvent: {}
+[99.536165] (-) TimerEvent: {}
+[99.594089] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_3_foxglove.png\n'}
+[99.636297] (-) TimerEvent: {}
+[99.737200] (-) TimerEvent: {}
+[99.760938] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_3_raw_map.png\n'}
+[99.837493] (-) TimerEvent: {}
+[99.913454] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_3_view_1.png\n'}
+[99.937626] (-) TimerEvent: {}
+[100.038351] (-) TimerEvent: {}
+[100.099883] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_3_view_2.png\n'}
+[100.138536] (-) TimerEvent: {}
+[100.239645] (-) TimerEvent: {}
+[100.321055] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_3_view_3.png\n'}
+[100.339787] (-) TimerEvent: {}
+[100.440629] (-) TimerEvent: {}
+[100.525380] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_4_analysis.png\n'}
+[100.540777] (-) TimerEvent: {}
+[100.641515] (-) TimerEvent: {}
+[100.701958] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_4_angles.png\n'}
+[100.741800] (-) TimerEvent: {}
+[100.843192] (-) TimerEvent: {}
+[100.852832] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_4_foxglove.png\n'}
+[100.943286] (-) TimerEvent: {}
+[101.020720] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_4_raw_map.png\n'}
+[101.043502] (-) TimerEvent: {}
+[101.144355] (-) TimerEvent: {}
+[101.178489] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_4_view_1.png\n'}
+[101.244498] (-) TimerEvent: {}
+[101.344064] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_4_view_2.png\n'}
+[101.345609] (-) TimerEvent: {}
+[101.446949] (-) TimerEvent: {}
+[101.508770] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_4_view_3.png\n'}
+[101.548233] (-) TimerEvent: {}
+[101.652219] (-) TimerEvent: {}
+[101.672556] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/launch\n'}
+[101.706052] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/launch/world.launch.py\n'}
+[101.753916] (-) TimerEvent: {}
+[101.857928] (-) TimerEvent: {}
+[101.871214] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/environment/dream_world.dsv\n'}
+[101.959863] (-) TimerEvent: {}
+[101.990752] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/ament_index/resource_index/package_run_dependencies/dream_world\n'}
+[102.061908] (-) TimerEvent: {}
+[102.127077] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/ament_index/resource_index/parent_prefix_path/dream_world\n'}
+[102.162635] (-) TimerEvent: {}
+[102.238535] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/environment/ament_prefix_path.sh\n'}
+[102.263014] (-) TimerEvent: {}
+[102.322249] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/environment/ament_prefix_path.dsv\n'}
+[102.364316] (-) TimerEvent: {}
+[102.413161] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/environment/path.sh\n'}
+[102.465870] (-) TimerEvent: {}
+[102.494055] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/environment/path.dsv\n'}
+[102.568029] (-) TimerEvent: {}
+[102.589163] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/local_setup.bash\n'}
+[102.669213] (-) TimerEvent: {}
+[102.691857] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/local_setup.sh\n'}
+[102.766646] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/local_setup.zsh\n'}
+[102.769393] (-) TimerEvent: {}
+[102.841911] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/local_setup.dsv\n'}
+[102.870352] (-) TimerEvent: {}
+[102.916712] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/package.dsv\n'}
+[102.971934] (-) TimerEvent: {}
+[103.024506] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/ament_index/resource_index/packages/dream_world\n'}
+[103.073420] (-) TimerEvent: {}
+[103.144652] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/cmake/dream_worldConfig.cmake\n'}
+[103.174356] (-) TimerEvent: {}
+[103.224352] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/cmake/dream_worldConfig-version.cmake\n'}
+[103.275853] (-) TimerEvent: {}
+[103.313264] (dream_world) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/package.xml\n'}
+[103.377755] (-) TimerEvent: {}
+[103.379481] (dream_world) CommandEnded: {'returncode': 0}
+[103.480161] (-) TimerEvent: {}
+[103.583598] (-) TimerEvent: {}
+[103.687368] (-) TimerEvent: {}
+[103.790858] (-) TimerEvent: {}
+[103.894397] (-) TimerEvent: {}
+[103.998074] (-) TimerEvent: {}
+[104.052891] (dream_world) JobEnded: {'identifier': 'dream_world', 'rc': 0}
+[104.063762] (-) EventReactorShutdown: {}

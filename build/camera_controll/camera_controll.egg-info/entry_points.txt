@@ -1,0 +1,4 @@
+[console_scripts]
+rover_camera_node = camera_controll.rover_camera_node:main
+yolo_subscriber_node = camera_controll.yolo_subscriber_node:main
+

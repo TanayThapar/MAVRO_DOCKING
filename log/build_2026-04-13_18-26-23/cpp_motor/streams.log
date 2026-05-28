@@ -1,0 +1,78 @@
+[0.544s] Invoking command in '/mnt/c/Users/kaush/Desktop/ros/build/cpp_motor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /mnt/c/Users/kaush/Desktop/ros/src/cpp_motor -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/kaush/Desktop/ros/install/cpp_motor
+[1.012s] -- The C compiler identification is GNU 11.4.0
+[1.617s] -- The CXX compiler identification is GNU 11.4.0
+[1.961s] -- Detecting C compiler ABI info
+[2.638s] -- Detecting C compiler ABI info - done
+[2.671s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.674s] -- Detecting C compile features
+[2.677s] -- Detecting C compile features - done
+[2.742s] -- Detecting CXX compiler ABI info
+[3.586s] -- Detecting CXX compiler ABI info - done
+[3.621s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.646s] -- Detecting CXX compile features
+[3.647s] -- Detecting CXX compile features - done
+[3.689s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.793s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.985s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[4.171s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.176s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.186s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.204s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.222s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.272s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.276s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.688s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.211s] -- Found FastRTPS: /opt/ros/humble/include  
+[10.033s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.117s] -- Looking for pthread.h
+[11.342s] -- Looking for pthread.h - found
+[11.357s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[12.155s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[12.162s] -- Found Threads: TRUE  
+[12.241s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[12.258s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[12.276s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[12.751s] -- Added test 'copyright' to check source files copyright and LICENSE
+[13.043s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[13.044s] -- Configured cppcheck include dirs: 
+[13.046s] -- Configured cppcheck exclude dirs and/or files: 
+[13.363s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[13.364s] -- Configured cpplint exclude dirs and/or files: 
+[13.531s] -- Added test 'lint_cmake' to check CMake code style
+[13.904s] -- Added test 'uncrustify' to check C / C++ code style
+[13.905s] -- Configured uncrustify additional arguments: 
+[13.950s] -- Added test 'xmllint' to check XML markup files
+[14.156s] -- Configuring done
+[14.737s] -- Generating done
+[15.096s] -- Build files have been written to: /mnt/c/Users/kaush/Desktop/ros/build/cpp_motor
+[15.108s] Invoked command in '/mnt/c/Users/kaush/Desktop/ros/build/cpp_motor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /mnt/c/Users/kaush/Desktop/ros/src/cpp_motor -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/kaush/Desktop/ros/install/cpp_motor
+[15.118s] Invoking command in '/mnt/c/Users/kaush/Desktop/ros/build/cpp_motor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/kaush/Desktop/ros/build/cpp_motor -- -j16 -l16
+[15.312s] [ 50%] [32mBuilding CXX object CMakeFiles/ps5_teleop_node.dir/src/ps5_teleop_node.cpp.o[0m
+[15.313s] [ 50%] [32mBuilding CXX object CMakeFiles/motor_control_node.dir/src/motor_control_node.cpp.o[0m
+[23.529s] [ 75%] [32m[1mLinking CXX executable motor_control_node[0m
+[23.844s] [100%] [32m[1mLinking CXX executable ps5_teleop_node[0m
+[27.337s] [100%] Built target motor_control_node
+[27.644s] [100%] Built target ps5_teleop_node
+[27.689s] Invoked command in '/mnt/c/Users/kaush/Desktop/ros/build/cpp_motor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/kaush/Desktop/ros/build/cpp_motor -- -j16 -l16
+[27.709s] Invoking command in '/mnt/c/Users/kaush/Desktop/ros/build/cpp_motor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/kaush/Desktop/ros/build/cpp_motor
+[27.719s] -- Install configuration: ""
+[27.741s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/lib/cpp_motor/motor_control_node
+[28.094s] -- Set runtime path of "/mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/lib/cpp_motor/motor_control_node" to ""
+[28.114s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/lib/cpp_motor/ps5_teleop_node
+[28.463s] -- Set runtime path of "/mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/lib/cpp_motor/ps5_teleop_node" to ""
+[28.507s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/share/ament_index/resource_index/package_run_dependencies/cpp_motor
+[28.630s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/share/ament_index/resource_index/parent_prefix_path/cpp_motor
+[28.734s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/share/cpp_motor/environment/ament_prefix_path.sh
+[28.805s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/share/cpp_motor/environment/ament_prefix_path.dsv
+[28.882s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/share/cpp_motor/environment/path.sh
+[28.958s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/share/cpp_motor/environment/path.dsv
+[29.035s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/share/cpp_motor/local_setup.bash
+[29.109s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/share/cpp_motor/local_setup.sh
+[29.206s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/share/cpp_motor/local_setup.zsh
+[29.275s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/share/cpp_motor/local_setup.dsv
+[29.345s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/share/cpp_motor/package.dsv
+[29.441s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/share/ament_index/resource_index/packages/cpp_motor
+[29.552s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/share/cpp_motor/cmake/cpp_motorConfig.cmake
+[29.627s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/share/cpp_motor/cmake/cpp_motorConfig-version.cmake
+[29.708s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/cpp_motor/share/cpp_motor/package.xml
+[29.767s] Invoked command in '/mnt/c/Users/kaush/Desktop/ros/build/cpp_motor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/kaush/Desktop/ros/build/cpp_motor

@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/camera_controll/camera_controll.egg-info
+writing ../../build/camera_controll/camera_controll.egg-info/PKG-INFO
+writing dependency_links to ../../build/camera_controll/camera_controll.egg-info/dependency_links.txt
+writing entry points to ../../build/camera_controll/camera_controll.egg-info/entry_points.txt
+writing requirements to ../../build/camera_controll/camera_controll.egg-info/requires.txt
+writing top-level names to ../../build/camera_controll/camera_controll.egg-info/top_level.txt
+writing manifest file '../../build/camera_controll/camera_controll.egg-info/SOURCES.txt'
+reading manifest file '../../build/camera_controll/camera_controll.egg-info/SOURCES.txt'
+writing manifest file '../../build/camera_controll/camera_controll.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /mnt/c/Users/kaush/Desktop/ros/build/camera_controll/build
+creating /mnt/c/Users/kaush/Desktop/ros/build/camera_controll/build/lib
+creating /mnt/c/Users/kaush/Desktop/ros/build/camera_controll/build/lib/camera_controll
+copying camera_controll/rover_camera_node.py -> /mnt/c/Users/kaush/Desktop/ros/build/camera_controll/build/lib/camera_controll
+copying camera_controll/yolo_subscriber_node.py -> /mnt/c/Users/kaush/Desktop/ros/build/camera_controll/build/lib/camera_controll
+copying camera_controll/__init__.py -> /mnt/c/Users/kaush/Desktop/ros/build/camera_controll/build/lib/camera_controll
+running install
+running install_lib
+creating /mnt/c/Users/kaush/Desktop/ros/install/camera_controll/lib/python3.10/site-packages/camera_controll
+copying /mnt/c/Users/kaush/Desktop/ros/build/camera_controll/build/lib/camera_controll/rover_camera_node.py -> /mnt/c/Users/kaush/Desktop/ros/install/camera_controll/lib/python3.10/site-packages/camera_controll
+copying /mnt/c/Users/kaush/Desktop/ros/build/camera_controll/build/lib/camera_controll/yolo_subscriber_node.py -> /mnt/c/Users/kaush/Desktop/ros/install/camera_controll/lib/python3.10/site-packages/camera_controll
+copying /mnt/c/Users/kaush/Desktop/ros/build/camera_controll/build/lib/camera_controll/__init__.py -> /mnt/c/Users/kaush/Desktop/ros/install/camera_controll/lib/python3.10/site-packages/camera_controll
+byte-compiling /mnt/c/Users/kaush/Desktop/ros/install/camera_controll/lib/python3.10/site-packages/camera_controll/rover_camera_node.py to rover_camera_node.cpython-310.pyc
+byte-compiling /mnt/c/Users/kaush/Desktop/ros/install/camera_controll/lib/python3.10/site-packages/camera_controll/yolo_subscriber_node.py to yolo_subscriber_node.cpython-310.pyc
+byte-compiling /mnt/c/Users/kaush/Desktop/ros/install/camera_controll/lib/python3.10/site-packages/camera_controll/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /mnt/c/Users/kaush/Desktop/ros/install/camera_controll/share/ament_index
+creating /mnt/c/Users/kaush/Desktop/ros/install/camera_controll/share/ament_index/resource_index
+creating /mnt/c/Users/kaush/Desktop/ros/install/camera_controll/share/ament_index/resource_index/packages
+copying resource/camera_controll -> /mnt/c/Users/kaush/Desktop/ros/install/camera_controll/share/ament_index/resource_index/packages
+copying package.xml -> /mnt/c/Users/kaush/Desktop/ros/install/camera_controll/share/camera_controll
+running install_egg_info
+Copying ../../build/camera_controll/camera_controll.egg-info to /mnt/c/Users/kaush/Desktop/ros/install/camera_controll/lib/python3.10/site-packages/camera_controll-0.0.0-py3.10.egg-info
+running install_scripts
+Installing rover_camera_node script to /mnt/c/Users/kaush/Desktop/ros/install/camera_controll/lib/camera_controll
+Installing yolo_subscriber_node script to /mnt/c/Users/kaush/Desktop/ros/install/camera_controll/lib/camera_controll
+writing list of installed files to '/mnt/c/Users/kaush/Desktop/ros/build/camera_controll/install.log'

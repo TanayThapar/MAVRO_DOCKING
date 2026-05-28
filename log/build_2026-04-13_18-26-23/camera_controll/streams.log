@@ -1,0 +1,41 @@
+[2.249s] Invoking command in '/mnt/c/Users/kaush/Desktop/ros/src/camera_controll': PYTHONPATH=/mnt/c/Users/kaush/Desktop/ros/build/camera_controll/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/kaush/Desktop/ros/install/camera_controll/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_controll build --build-base /mnt/c/Users/kaush/Desktop/ros/build/camera_controll/build install --record /mnt/c/Users/kaush/Desktop/ros/build/camera_controll/install.log --single-version-externally-managed install_data
+[3.006s] running egg_info
+[3.014s] creating ../../build/camera_controll/camera_controll.egg-info
+[3.016s] writing ../../build/camera_controll/camera_controll.egg-info/PKG-INFO
+[3.028s] writing dependency_links to ../../build/camera_controll/camera_controll.egg-info/dependency_links.txt
+[3.035s] writing entry points to ../../build/camera_controll/camera_controll.egg-info/entry_points.txt
+[3.041s] writing requirements to ../../build/camera_controll/camera_controll.egg-info/requires.txt
+[3.045s] writing top-level names to ../../build/camera_controll/camera_controll.egg-info/top_level.txt
+[3.054s] writing manifest file '../../build/camera_controll/camera_controll.egg-info/SOURCES.txt'
+[3.099s] reading manifest file '../../build/camera_controll/camera_controll.egg-info/SOURCES.txt'
+[3.164s] writing manifest file '../../build/camera_controll/camera_controll.egg-info/SOURCES.txt'
+[3.166s] running build
+[3.168s] running build_py
+[3.173s] creating /mnt/c/Users/kaush/Desktop/ros/build/camera_controll/build
+[3.175s] creating /mnt/c/Users/kaush/Desktop/ros/build/camera_controll/build/lib
+[3.178s] creating /mnt/c/Users/kaush/Desktop/ros/build/camera_controll/build/lib/camera_controll
+[3.189s] copying camera_controll/rover_camera_node.py -> /mnt/c/Users/kaush/Desktop/ros/build/camera_controll/build/lib/camera_controll
+[3.232s] copying camera_controll/yolo_subscriber_node.py -> /mnt/c/Users/kaush/Desktop/ros/build/camera_controll/build/lib/camera_controll
+[3.278s] copying camera_controll/__init__.py -> /mnt/c/Users/kaush/Desktop/ros/build/camera_controll/build/lib/camera_controll
+[3.296s] running install
+[3.298s] running install_lib
+[3.323s] creating /mnt/c/Users/kaush/Desktop/ros/install/camera_controll/lib/python3.10/site-packages/camera_controll
+[3.343s] copying /mnt/c/Users/kaush/Desktop/ros/build/camera_controll/build/lib/camera_controll/rover_camera_node.py -> /mnt/c/Users/kaush/Desktop/ros/install/camera_controll/lib/python3.10/site-packages/camera_controll
+[3.393s] copying /mnt/c/Users/kaush/Desktop/ros/build/camera_controll/build/lib/camera_controll/yolo_subscriber_node.py -> /mnt/c/Users/kaush/Desktop/ros/install/camera_controll/lib/python3.10/site-packages/camera_controll
+[3.442s] copying /mnt/c/Users/kaush/Desktop/ros/build/camera_controll/build/lib/camera_controll/__init__.py -> /mnt/c/Users/kaush/Desktop/ros/install/camera_controll/lib/python3.10/site-packages/camera_controll
+[3.485s] byte-compiling /mnt/c/Users/kaush/Desktop/ros/install/camera_controll/lib/python3.10/site-packages/camera_controll/rover_camera_node.py to rover_camera_node.cpython-310.pyc
+[3.539s] byte-compiling /mnt/c/Users/kaush/Desktop/ros/install/camera_controll/lib/python3.10/site-packages/camera_controll/yolo_subscriber_node.py to yolo_subscriber_node.cpython-310.pyc
+[3.586s] byte-compiling /mnt/c/Users/kaush/Desktop/ros/install/camera_controll/lib/python3.10/site-packages/camera_controll/__init__.py to __init__.cpython-310.pyc
+[3.629s] running install_data
+[3.637s] creating /mnt/c/Users/kaush/Desktop/ros/install/camera_controll/share/ament_index
+[3.639s] creating /mnt/c/Users/kaush/Desktop/ros/install/camera_controll/share/ament_index/resource_index
+[3.642s] creating /mnt/c/Users/kaush/Desktop/ros/install/camera_controll/share/ament_index/resource_index/packages
+[3.655s] copying resource/camera_controll -> /mnt/c/Users/kaush/Desktop/ros/install/camera_controll/share/ament_index/resource_index/packages
+[3.686s] copying package.xml -> /mnt/c/Users/kaush/Desktop/ros/install/camera_controll/share/camera_controll
+[3.702s] running install_egg_info
+[3.746s] Copying ../../build/camera_controll/camera_controll.egg-info to /mnt/c/Users/kaush/Desktop/ros/install/camera_controll/lib/python3.10/site-packages/camera_controll-0.0.0-py3.10.egg-info
+[4.008s] running install_scripts
+[4.084s] Installing rover_camera_node script to /mnt/c/Users/kaush/Desktop/ros/install/camera_controll/lib/camera_controll
+[4.095s] Installing yolo_subscriber_node script to /mnt/c/Users/kaush/Desktop/ros/install/camera_controll/lib/camera_controll
+[4.111s] writing list of installed files to '/mnt/c/Users/kaush/Desktop/ros/build/camera_controll/install.log'
+[4.142s] Invoked command in '/mnt/c/Users/kaush/Desktop/ros/src/camera_controll' returned '0': PYTHONPATH=/mnt/c/Users/kaush/Desktop/ros/build/camera_controll/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/kaush/Desktop/ros/install/camera_controll/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_controll build --build-base /mnt/c/Users/kaush/Desktop/ros/build/camera_controll/build install --record /mnt/c/Users/kaush/Desktop/ros/build/camera_controll/install.log --single-version-externally-managed install_data

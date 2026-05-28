@@ -1,0 +1,206 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/c/Users/kaush/Desktop/ros/build/dream_world
+-- Install configuration: ""
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/scripts
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/scripts/model.material
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/BOXSET_Albedo.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/BOXSET_Emissive.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/BOXSET_Metalness.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/BOXSET_Normal.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/BOXSET_Roughness.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/Crates_Crates_BaseColor.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/Crates_Crates_Normal.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/Crates_Crates_Roughness.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/DepotLightmap.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/FanBack_FanBack_BaseColor.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/FANS_Albedo.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/FANS_Metalness.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/FANS_Normal.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/FANS_Roughness.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/FireAlarmPole_Albedo.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/FireAlarmPole_Metalness.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/FireAlarmPole_Normal.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/FireAlarmPole_Roughness.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/FireAlarm_Albedo.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/FireAlarm_Metalness.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/FireAlarm_Normal.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/FireAlarm_Roughness.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/FLOOR_Albedo.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/FLOOR_Metalness.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/FLOOR_Normal.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/FLOOR_Roughness.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/Forklift_Forklift_BaseColor.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/Forklift_Forklift_Metallic.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/Forklift_Forklift_Normal.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/Forklift_Forklift_Roughness.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/INTERCOM_Albedo.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/INTERCOM_Emissive.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/INTERCOM_Metalness.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/INTERCOM_Normal.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/INTERCOM_Roughness.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/PILLERS_Albedo.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/PILLERS_Metalness.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/PILLERS_Normal.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/PILLERS_Roughness.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/Pipes_Albedo.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/Pipes_Metalness.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/Pipes_Normal.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/Pipes_Roughness.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/ROOF_Albedo.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/ROOF_Emissive.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/ROOF_Metalness.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/ROOF_Normal.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/ROOF_Roughness.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/STAIRS_Albedo.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/STAIRS_Metalness.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/STAIRS_Normal.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/STAIRS_Roughness.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/WALLS_Albedo.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/WALLS_Metalness.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/WALLS_Normal.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/WALLS_Roughness.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/Window_WINDOW_BaseColor.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/Window_WINDOW_Metallic.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/materials/textures/Window_WINDOW_Roughness.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/meshes
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/meshes/Crates.dae
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/meshes/Depot.dae
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/model.config
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/model.sdf
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/thumbnails
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/thumbnails/0.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/thumbnails/1.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/thumbnails/2.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/thumbnails/3.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/thumbnails/4.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/models/Depot/thumbnails/5.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/.basic_map.sdf.swp
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/basic_map.sdf
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/depot.sdf
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/models
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/models/barrel_1.glb
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/models/barrel_2.glb
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/models/barrel_3.glb
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/models/curtain.glb
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/models/electricity.glb
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/models/pillar.glb
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/models/street.glb
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/models/warehouse_1_shelf_1.glb
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/models/warehouse_1_shelf_2.glb
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/models/warehouse_2_shelf_1.glb
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/models/warehouse_2_shelf_2.glb
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/models/warehouse_2_shelf_3.glb
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/models/warehouse_2_shelf_4.glb
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/models/warehouse_3_shelf_1.glb
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/models/warehouse_3_shelf_2.glb
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/models/warehouse_3_shelf_3.glb
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/models/warehouse_4_shelf_1.glb
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/models/warehouse_4_shelf_2.glb
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/models/warehouse_4_shelf_3.glb
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/models/warehouse_4_shelf_4.glb
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/models/warehouse_4_shelf_5.glb
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/nxp.dae
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/NXP.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/qrData_firstHeuristic.txt
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/qr_code_images
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/qr_code_images/warehouse_1_qrcode_1.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/qr_code_images/warehouse_1_qrcode_2.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/qr_code_images/warehouse_2_qrcode_1.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/qr_code_images/warehouse_2_qrcode_2.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/qr_code_images/warehouse_2_qrcode_3.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/qr_code_images/warehouse_2_qrcode_4.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/qr_code_images/warehouse_3_qrcode_1.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/qr_code_images/warehouse_3_qrcode_2.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/qr_code_images/warehouse_3_qrcode_3.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/qr_code_images/warehouse_4_qrcode_1.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/qr_code_images/warehouse_4_qrcode_2.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/qr_code_images/warehouse_4_qrcode_3.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/qr_code_images/warehouse_4_qrcode_4.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/qr_code_images/warehouse_4_qrcode_5.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/shelf_object_images
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/shelf_object_images/banana.jpg
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/shelf_object_images/car.jpg
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/shelf_object_images/clock.jpeg
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/shelf_object_images/cup.jpg
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/shelf_object_images/horse.jpg
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/shelf_object_images/plant.jpg
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/shelf_object_images/teddy.jpg
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/shelf_object_images/zebra.jpg
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/shelf_object_images/_sources.txt
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_1.sdf
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_2.sdf
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_3.sdf
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_4.sdf
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_1_analysis.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_1_angles.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_1_foxglove.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_1_raw_map.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_1_view_1.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_1_view_2.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_1_view_3.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_2_analysis.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_2_angles.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_2_foxglove.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_2_raw_map.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_2_view_1.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_2_view_2.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_2_view_3.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_3_analysis.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_3_angles.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_3_foxglove.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_3_raw_map.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_3_view_1.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_3_view_2.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_3_view_3.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_4_analysis.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_4_angles.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_4_foxglove.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_4_raw_map.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_4_view_1.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_4_view_2.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/worlds/nxp_aim_india_2025/warehouse_images/warehouse_4_view_3.png
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/launch
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/launch/world.launch.py
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/environment/dream_world.dsv
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/ament_index/resource_index/package_run_dependencies/dream_world
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/ament_index/resource_index/parent_prefix_path/dream_world
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/environment/ament_prefix_path.sh
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/environment/ament_prefix_path.dsv
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/environment/path.sh
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/environment/path.dsv
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/local_setup.bash
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/local_setup.sh
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/local_setup.zsh
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/local_setup.dsv
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/package.dsv
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/ament_index/resource_index/packages/dream_world
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/cmake/dream_worldConfig.cmake
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/cmake/dream_worldConfig-version.cmake
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/dream_world/share/dream_world/package.xml

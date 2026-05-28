@@ -1,0 +1,29 @@
+<launch>
+  <!-- Define paths -->
+  <let name="urdf_path" 
+       value="$(find-pkg-share rover_description)/urdf/rover.urdf.xacro" />
+  <let name="rviz_config_path"
+       value="$(find-pkg-share rover_description)/rviz/urdf_config.rviz" />
+
+  <!-- Robot State Publisher -->
+  <node pkg="robot_state_publisher" exec="robot_state_publisher">
+    <param name="robot_description"
+           value="$(command 'xacro $(var urdf_path)')" />
+  </node>
+
+  <!-- ROS2 Control -->
+  <node pkg="controller_manager" exec="ros2_control_node">
+    <remap from="/controller_manager/robot_description" to="/robot_description" />
+    <param from="$(find-pkg-share rover_description)/config/my_robot_controllers.yaml" />
+  </node>
+
+  <!-- Controllers -->
+  <node pkg="controller_manager" exec="spawner" args="joint_state_broadcaster" />
+  <node pkg="controller_manager" exec="spawner"
+        args="diff_drive_controller --param-file $(find-pkg-share rover_description)/config/my_robot_controllers.yaml" />
+
+  <!-- RViz -->
+  <node pkg="rviz2" exec="rviz2" output="screen"
+        args="-d $(var rviz_config_path)" />
+</launch>
+

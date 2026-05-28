@@ -1,0 +1,6 @@
+Invoking command in '/mnt/c/Users/kaush/Desktop/ros/build/cpp_motor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /mnt/c/Users/kaush/Desktop/ros/src/cpp_motor -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/kaush/Desktop/ros/install/cpp_motor
+Invoked command in '/mnt/c/Users/kaush/Desktop/ros/build/cpp_motor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /mnt/c/Users/kaush/Desktop/ros/src/cpp_motor -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/kaush/Desktop/ros/install/cpp_motor
+Invoking command in '/mnt/c/Users/kaush/Desktop/ros/build/cpp_motor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/kaush/Desktop/ros/build/cpp_motor -- -j16 -l16
+Invoked command in '/mnt/c/Users/kaush/Desktop/ros/build/cpp_motor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/kaush/Desktop/ros/build/cpp_motor -- -j16 -l16
+Invoking command in '/mnt/c/Users/kaush/Desktop/ros/build/cpp_motor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/kaush/Desktop/ros/build/cpp_motor
+Invoked command in '/mnt/c/Users/kaush/Desktop/ros/build/cpp_motor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/kaush/Desktop/ros/build/cpp_motor

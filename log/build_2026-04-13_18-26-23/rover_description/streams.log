@@ -1,0 +1,57 @@
+[0.753s] Invoking command in '/mnt/c/Users/kaush/Desktop/ros/build/rover_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /mnt/c/Users/kaush/Desktop/ros/src/rover_description -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/kaush/Desktop/ros/install/rover_description
+[1.117s] -- The C compiler identification is GNU 11.4.0
+[1.774s] -- The CXX compiler identification is GNU 11.4.0
+[2.219s] -- Detecting C compiler ABI info
+[2.963s] -- Detecting C compiler ABI info - done
+[2.996s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.997s] -- Detecting C compile features
+[2.998s] -- Detecting C compile features - done
+[3.068s] -- Detecting CXX compiler ABI info
+[3.829s] -- Detecting CXX compiler ABI info - done
+[3.864s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.866s] -- Detecting CXX compile features
+[3.867s] -- Detecting CXX compile features - done
+[3.927s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.029s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.785s] -- Configuring done
+[5.143s] -- Generating done
+[5.404s] -- Build files have been written to: /mnt/c/Users/kaush/Desktop/ros/build/rover_description
+[5.405s] Invoked command in '/mnt/c/Users/kaush/Desktop/ros/build/rover_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /mnt/c/Users/kaush/Desktop/ros/src/rover_description -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/kaush/Desktop/ros/install/rover_description
+[5.407s] Invoking command in '/mnt/c/Users/kaush/Desktop/ros/build/rover_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/kaush/Desktop/ros/build/rover_description -- -j16 -l16
+[5.501s] Invoked command in '/mnt/c/Users/kaush/Desktop/ros/build/rover_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/kaush/Desktop/ros/build/rover_description -- -j16 -l16
+[5.531s] Invoking command in '/mnt/c/Users/kaush/Desktop/ros/build/rover_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/kaush/Desktop/ros/build/rover_description
+[5.540s] -- Install configuration: ""
+[5.546s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//urdf
+[5.578s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//urdf/gazebo_control.xacro
+[5.680s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//urdf/mobile_base.ros2_control.xacro
+[5.801s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//urdf/Properties.xacro
+[5.907s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//urdf/rover.urdf.xacro
+[6.008s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//urdf/rover_base.xacro
+[6.119s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//rviz
+[6.149s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//launch
+[6.183s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//launch/display.launch.xml
+[6.277s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//launch/my_robot.launch.xml
+[6.375s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//launch/spawn_rover.launch.py
+[6.477s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//config
+[6.514s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//config/gz_bridge.yaml
+[6.635s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//config/localization.yaml
+[6.758s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//config/mapper_param.yaml
+[6.856s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//config/my_robot_controllers.yaml
+[6.949s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//config/nav2.yaml
+[7.048s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//config/ps5_config.yaml
+[7.202s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/ament_index/resource_index/package_run_dependencies/rover_description
+[7.321s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/ament_index/resource_index/parent_prefix_path/rover_description
+[7.451s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description/environment/ament_prefix_path.sh
+[7.524s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description/environment/ament_prefix_path.dsv
+[7.597s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description/environment/path.sh
+[7.697s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description/environment/path.dsv
+[7.778s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description/local_setup.bash
+[7.854s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description/local_setup.sh
+[7.932s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description/local_setup.zsh
+[8.011s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description/local_setup.dsv
+[8.086s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description/package.dsv
+[8.207s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/ament_index/resource_index/packages/rover_description
+[8.340s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description/cmake/rover_descriptionConfig.cmake
+[8.430s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description/cmake/rover_descriptionConfig-version.cmake
+[8.511s] -- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description/package.xml
+[8.578s] Invoked command in '/mnt/c/Users/kaush/Desktop/ros/build/rover_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/kaush/Desktop/ros/build/rover_description

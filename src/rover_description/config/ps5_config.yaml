@@ -1,0 +1,40 @@
+teleop_twist_joy_node:
+  ros__parameters:
+    
+    # --- Axis Mappings ---
+    # R2 for Forward (Axis 5) - This is the analog trigger
+    axis_linear_positive:
+      x: 5
+    
+    # L2 for Backward (Axis 2) - This is the analog trigger
+    axis_linear_negative:
+      x: 2
+
+    # Left Stick Left/Right for turning (Axis 0)
+    # This matches your code: msg.axes[0]
+    axis_angular:
+      z: 0
+
+    # --- Speed Control Buttons ---
+    # R1 to increase speed (Button 5)
+    # This matches your code: msg.buttons[5]
+    button_speed_up: 5
+
+    # L1 to decrease speed (Button 4)
+    # This matches your code: msg.buttons[4]
+    button_speed_down: 4
+
+    # --- Speed Configuration ---
+    scale_linear:
+      x: 0.4  # Start at 40% linear speed
+    scale_angular:
+      z: 0.7  # Start at 70% angular speed
+
+    speed_up_step:
+      linear: 0.1   # Increase/decrease linear speed by 10%
+      angular: 0.1  # Increase/decrease angular speed by 10%
+
+    scale_linear_max:
+      x: 1.0 # Max 100% linear speed
+    scale_angular_max:
+      z: 1.5 # Max 1.5 rad/s angular speed

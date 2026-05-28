@@ -1,0 +1,9 @@
+/mnt/c/Users/kaush/Desktop/ros/build/dream_world/CMakeFiles/uninstall.dir
+/mnt/c/Users/kaush/Desktop/ros/build/dream_world/CMakeFiles/dream_world_uninstall.dir
+/mnt/c/Users/kaush/Desktop/ros/build/dream_world/CMakeFiles/test.dir
+/mnt/c/Users/kaush/Desktop/ros/build/dream_world/CMakeFiles/edit_cache.dir
+/mnt/c/Users/kaush/Desktop/ros/build/dream_world/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/kaush/Desktop/ros/build/dream_world/CMakeFiles/list_install_components.dir
+/mnt/c/Users/kaush/Desktop/ros/build/dream_world/CMakeFiles/install.dir
+/mnt/c/Users/kaush/Desktop/ros/build/dream_world/CMakeFiles/install/local.dir
+/mnt/c/Users/kaush/Desktop/ros/build/dream_world/CMakeFiles/install/strip.dir

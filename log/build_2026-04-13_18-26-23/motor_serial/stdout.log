@@ -1,0 +1,54 @@
+running egg_info
+creating ../../build/motor_serial/motor_serial.egg-info
+writing ../../build/motor_serial/motor_serial.egg-info/PKG-INFO
+writing dependency_links to ../../build/motor_serial/motor_serial.egg-info/dependency_links.txt
+writing entry points to ../../build/motor_serial/motor_serial.egg-info/entry_points.txt
+writing requirements to ../../build/motor_serial/motor_serial.egg-info/requires.txt
+writing top-level names to ../../build/motor_serial/motor_serial.egg-info/top_level.txt
+writing manifest file '../../build/motor_serial/motor_serial.egg-info/SOURCES.txt'
+reading manifest file '../../build/motor_serial/motor_serial.egg-info/SOURCES.txt'
+writing manifest file '../../build/motor_serial/motor_serial.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /mnt/c/Users/kaush/Desktop/ros/build/motor_serial/build
+creating /mnt/c/Users/kaush/Desktop/ros/build/motor_serial/build/lib
+creating /mnt/c/Users/kaush/Desktop/ros/build/motor_serial/build/lib/motor_serial
+copying motor_serial/arrow_teleop.py -> /mnt/c/Users/kaush/Desktop/ros/build/motor_serial/build/lib/motor_serial
+copying motor_serial/motor_controller.py -> /mnt/c/Users/kaush/Desktop/ros/build/motor_serial/build/lib/motor_serial
+copying motor_serial/ps5_drive.py -> /mnt/c/Users/kaush/Desktop/ros/build/motor_serial/build/lib/motor_serial
+copying motor_serial/serial_bridge.py -> /mnt/c/Users/kaush/Desktop/ros/build/motor_serial/build/lib/motor_serial
+copying motor_serial/twist_to_motor.py -> /mnt/c/Users/kaush/Desktop/ros/build/motor_serial/build/lib/motor_serial
+copying motor_serial/__init__.py -> /mnt/c/Users/kaush/Desktop/ros/build/motor_serial/build/lib/motor_serial
+running install
+running install_lib
+creating /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/lib/python3.10/site-packages/motor_serial
+copying /mnt/c/Users/kaush/Desktop/ros/build/motor_serial/build/lib/motor_serial/arrow_teleop.py -> /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/lib/python3.10/site-packages/motor_serial
+copying /mnt/c/Users/kaush/Desktop/ros/build/motor_serial/build/lib/motor_serial/motor_controller.py -> /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/lib/python3.10/site-packages/motor_serial
+copying /mnt/c/Users/kaush/Desktop/ros/build/motor_serial/build/lib/motor_serial/ps5_drive.py -> /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/lib/python3.10/site-packages/motor_serial
+copying /mnt/c/Users/kaush/Desktop/ros/build/motor_serial/build/lib/motor_serial/serial_bridge.py -> /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/lib/python3.10/site-packages/motor_serial
+copying /mnt/c/Users/kaush/Desktop/ros/build/motor_serial/build/lib/motor_serial/twist_to_motor.py -> /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/lib/python3.10/site-packages/motor_serial
+copying /mnt/c/Users/kaush/Desktop/ros/build/motor_serial/build/lib/motor_serial/__init__.py -> /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/lib/python3.10/site-packages/motor_serial
+byte-compiling /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/lib/python3.10/site-packages/motor_serial/arrow_teleop.py to arrow_teleop.cpython-310.pyc
+byte-compiling /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/lib/python3.10/site-packages/motor_serial/motor_controller.py to motor_controller.cpython-310.pyc
+byte-compiling /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/lib/python3.10/site-packages/motor_serial/ps5_drive.py to ps5_drive.cpython-310.pyc
+byte-compiling /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/lib/python3.10/site-packages/motor_serial/serial_bridge.py to serial_bridge.cpython-310.pyc
+byte-compiling /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/lib/python3.10/site-packages/motor_serial/twist_to_motor.py to twist_to_motor.cpython-310.pyc
+byte-compiling /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/lib/python3.10/site-packages/motor_serial/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/share/ament_index
+creating /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/share/ament_index/resource_index
+creating /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/share/ament_index/resource_index/packages
+copying resource/motor_serial -> /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/share/ament_index/resource_index/packages
+copying package.xml -> /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/share/motor_serial
+creating /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/share/motor_serial/launch
+copying launch/bringup.launch.py -> /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/share/motor_serial/launch
+copying launch/ps5_drive.launch.py -> /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/share/motor_serial/launch
+running install_egg_info
+Copying ../../build/motor_serial/motor_serial.egg-info to /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/lib/python3.10/site-packages/motor_serial-0.0.0-py3.10.egg-info
+running install_scripts
+Installing arrow_teleop script to /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/lib/motor_serial
+Installing motor_controller script to /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/lib/motor_serial
+Installing ps5_drive script to /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/lib/motor_serial
+Installing serial_bridge script to /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/lib/motor_serial
+Installing twist_to_motor script to /mnt/c/Users/kaush/Desktop/ros/install/motor_serial/lib/motor_serial
+writing list of installed files to '/mnt/c/Users/kaush/Desktop/ros/build/motor_serial/install.log'

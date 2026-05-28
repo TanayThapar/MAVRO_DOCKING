@@ -1,0 +1,6 @@
+Invoking command in '/mnt/c/Users/kaush/Desktop/ros/build/rover_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /mnt/c/Users/kaush/Desktop/ros/src/rover_description -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/kaush/Desktop/ros/install/rover_description
+Invoked command in '/mnt/c/Users/kaush/Desktop/ros/build/rover_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /mnt/c/Users/kaush/Desktop/ros/src/rover_description -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/kaush/Desktop/ros/install/rover_description
+Invoking command in '/mnt/c/Users/kaush/Desktop/ros/build/rover_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/kaush/Desktop/ros/build/rover_description -- -j16 -l16
+Invoked command in '/mnt/c/Users/kaush/Desktop/ros/build/rover_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/kaush/Desktop/ros/build/rover_description -- -j16 -l16
+Invoking command in '/mnt/c/Users/kaush/Desktop/ros/build/rover_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/kaush/Desktop/ros/build/rover_description
+Invoked command in '/mnt/c/Users/kaush/Desktop/ros/build/rover_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/kaush/Desktop/ros/build/rover_description

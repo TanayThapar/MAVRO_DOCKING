@@ -1,0 +1,20 @@
+teleop_twist_joy_node:
+  ros__parameters:
+    # which axes map to forward/back and turn — adjust after checking /joy
+    axis_linear: 1        # left stick vertical  (example)
+    scale_linear: 0.6     # tune down if too fast
+    axis_angular: 2       # right stick horizontal (example)
+    scale_angular: 0.8    # tune steering sensitivity
+
+    # safety: require a button to be held for motion (set to index you observed)
+    enable_button: 4      # e.g., L1 (change to the button index from /joy)
+    require_enable_button: true
+
+    # turbo button (optional)
+    enable_turbo_button: 5
+    scale_linear_turbo: 1.0
+    scale_angular_turbo: 1.2
+
+    # deadzone and publish rate
+    deadzone: 0.05
+    autorepeat_rate: 20.0

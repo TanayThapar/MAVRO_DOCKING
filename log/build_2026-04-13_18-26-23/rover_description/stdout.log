@@ -1,0 +1,51 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/c/Users/kaush/Desktop/ros/build/rover_description
+-- Install configuration: ""
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//urdf
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//urdf/gazebo_control.xacro
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//urdf/mobile_base.ros2_control.xacro
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//urdf/Properties.xacro
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//urdf/rover.urdf.xacro
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//urdf/rover_base.xacro
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//rviz
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//launch
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//launch/display.launch.xml
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//launch/my_robot.launch.xml
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//launch/spawn_rover.launch.py
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//config
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//config/gz_bridge.yaml
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//config/localization.yaml
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//config/mapper_param.yaml
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//config/my_robot_controllers.yaml
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//config/nav2.yaml
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description//config/ps5_config.yaml
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/ament_index/resource_index/package_run_dependencies/rover_description
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/ament_index/resource_index/parent_prefix_path/rover_description
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description/environment/ament_prefix_path.sh
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description/environment/ament_prefix_path.dsv
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description/environment/path.sh
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description/environment/path.dsv
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description/local_setup.bash
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description/local_setup.sh
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description/local_setup.zsh
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description/local_setup.dsv
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description/package.dsv
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/ament_index/resource_index/packages/rover_description
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description/cmake/rover_descriptionConfig.cmake
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description/cmake/rover_descriptionConfig-version.cmake
+-- Installing: /mnt/c/Users/kaush/Desktop/ros/install/rover_description/share/rover_description/package.xml

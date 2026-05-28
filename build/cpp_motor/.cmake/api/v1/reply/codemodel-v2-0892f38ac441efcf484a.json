@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-581b2d0264b587626f68.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp_motor",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_motor_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_motor_uninstall-fdc3db423e6741b64950.json",
+					"name" : "cpp_motor_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_control_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_control_node-be5cb0c237056755c17c.json",
+					"name" : "motor_control_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ps5_teleop_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ps5_teleop_node-c6ca15a05b177b425ccc.json",
+					"name" : "ps5_teleop_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-169ee59a11cb3da10859.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mnt/c/Users/kaush/Desktop/ros/build/cpp_motor",
+		"source" : "/mnt/c/Users/kaush/Desktop/ros/src/cpp_motor"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
